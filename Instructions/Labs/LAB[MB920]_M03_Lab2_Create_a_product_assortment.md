@@ -1,20 +1,25 @@
 ---
 lab:
-    title: 'Labo 2 : Créer un assortiment de produits'
-    module: 'Module 3 : Découvrir les principes de base de Microsoft Dynamics 365 Commerce'
+  title: 'Labo 2 : Créer un assortiment de produits'
+  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
+ms.openlocfilehash: d6c414c266f0403139dc31de38f602b5a0290ef5
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909637"
 ---
+## <a name="lab-2---create-a-product-assortment"></a>Labo 2 : Créer un assortiment de produits
 
-## Labo 2 : Créer un assortiment de produits
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 
 Vous devez créer un assortiment de produits associés qui sont affectés à un canal commercial spécifique qui sera mis à disposition à une date ultérieure.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
    - **Durée estimée** : 10 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
 1. Sur la page Finance and Operations, en haut à gauche, sélectionnez le menu hamburger **Développer le volet de navigation**.
 
@@ -38,7 +43,7 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 1. Dans le menu des canaux de commerce, sélectionnez **+ Ajouter une ligne**.
 
-1. Dans Choisir des nœuds d’organisation, sélectionnez le menu **Hiérarchie de l’organisation**, puis sélectionnez **Magasins de détail par type (Fabrikam)**.
+1. Dans Choisir des nœuds d’organisation, sélectionnez le menu **Hiérarchie de l’organisation**, puis sélectionnez **Magasins de détail par type (Fabrikam)** .
 
 1. Dans la liste NŒUDS D’ORGANISATION DISPONIBLES, sélectionnez En ligne, puis sélectionnez l’icône d’ajout ![Icône représentant une flèche pointant vers la droite](./media/d365-fo-add-org-node-icon.png) pour l’ajouter aux **NŒUDS D’ORGANISATION SÉLECTIONNÉS**.  
   Cela ajoute le nœud parent et tous les nœuds enfants.
@@ -51,13 +56,13 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 1. Dans le menu Produits, sélectionnez **+ Ajouter une ligne**.
 
-1. Sélectionnez le menu **Catégorie**, sélectionnez **Sports d’équipe (sports d’équipe)**, puis sélectionnez **OK**.
+1. Sélectionnez le menu **Catégorie**, sélectionnez **Sports d’équipe (sports d’équipe)** , puis sélectionnez **OK**.
 
 1. Cela ajoute tous les articles enfants de la catégorie parent.
 
 1. Passez en revue la dernière colonne nommée **Type ligne**. Par défaut, tous les articles sont inclus.
 
-1. Sélectionnez **+ Ajouter une ligne**, sélectionnez le menu **Catégorie**, développez **Sports d’équipe (sports d’équipe)**, sélectionnez **Baseball**, puis cliquez sur **OK**.
+1. Sélectionnez **+ Ajouter une ligne**, sélectionnez le menu **Catégorie**, développez **Sports d’équipe (sports d’équipe)** , sélectionnez **Baseball**, puis cliquez sur **OK**.
 
 1. Pour exclure un article d’une catégorie plus large déjà incluse, dans ce cas Sports d’équipe, dans la colonne Type ligne, remplacez la valeur par **Exclure**.
 

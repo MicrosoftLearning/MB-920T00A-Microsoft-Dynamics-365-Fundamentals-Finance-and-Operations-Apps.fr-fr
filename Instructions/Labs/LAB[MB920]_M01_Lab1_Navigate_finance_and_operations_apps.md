@@ -1,24 +1,29 @@
 ---
 lab:
-    title: 'Labo 1 : Parcourir les applications Finance and Operations'
-    module: 'Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Labo 1 : Parcourir les applications Finance and Operations'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: b0202a22e00a6fb2d561179ed1d6006f13d871f9
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909474"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Module 1 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
 
-# Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-1---navigate-finance-and-operations-apps"></a>Labo 1 : Parcourir les applications Finance and Operations
 
-## Labo 1 : Parcourir les applications Finance and Operations
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 
 Maintenant que vous vous êtes familiarisé avec les applications Finance and Operations, prenez le temps de découvrir l’interface.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
 - **Durée estimée** : 10 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
-### Connectez-vous à l’ordinateur du labo
+### <a name="sign-in-to-the-lab-computer"></a>Connectez-vous à l’ordinateur du labo
 
 1. Connectez-vous à l’ordinateur du labo à l’aide des identifiants suivants
 
@@ -26,7 +31,7 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
         Coller le contenu
 
-        Administrator
+        Administrateur
 
     - Mot de passe :
 
@@ -34,7 +39,7 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
         pass@word1
 
-    >[!Remarque] Il est possible qu’Internet Explorer s’ouvre automatiquement sur le Bureau. Si vous n’avez pas encore terminé les étapes 2 à 5, terminez-les avant de retourner sur Internet Explorer.
+    >[!Note] Il est possible qu’Internet Explorer s’ouvre automatiquement sur le Bureau. Si vous n’avez pas encore terminé les étapes 2 à 5, terminez-les avant de retourner sur Internet Explorer.
 
 1. Sélectionnez le fichier **AdminUserProvisioning** sur le Bureau.
 
@@ -51,7 +56,7 @@ Vous trouverez vos identifiants dans le menu **Ressources** situé dans le coin 
 
 1. Connectez-vous à l’aide des identifiants fournis dans le menu **Ressources**.
 
-### Parcourir les applications Finance and Operations
+### <a name="navigate-finance-and-operations-apps"></a>Parcourir les applications Finance and Operations
 1. Si elle est configurée, la page d’accueil de Finance and Operations affiche les éléments suivants :
 
     - Le menu de navigation à gauche, qui est réduit par défaut

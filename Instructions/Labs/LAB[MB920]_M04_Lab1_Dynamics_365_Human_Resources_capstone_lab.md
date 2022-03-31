@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Labo 1 : Labo Capstone de Dynamics 365 Human Resources'
-    module: 'Module 4 : Découvrir les principes de base de Microsoft Dynamics 365 Human Resources'
+  title: 'Labo 1 : Labo Capstone de Dynamics 365 Human Resources'
+  module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
+ms.openlocfilehash: e1d0f9974a3c1d6f4b31bb62733153850e2c86b0
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909643"
 ---
+## <a name="lab-1---dynamics-365-human-resources-capstone-lab"></a>Labo 1 : Labo Capstone de Dynamics 365 Human Resources
 
-## Labo 1 : Labo Capstone de Dynamics 365 Human Resources
-
-## Objectif
+## <a name="objective"></a>Objectif
 
 Au cours de ce labo, vous découvrirez le processus d’intégration des nouveaux employés, y compris la création d’un enregistrement employé. Vous découvrirez également le processus d’évaluation des performances, notamment la détermination d’objectifs et le classement de résultats. Vous utiliserez également les fonctionnalités en libre service pour envoyer un état de dépenses.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
-- **Durée estimée** : 20 minutes 
+- **Durée estimée** : 20 minutes 
 
-## Exercice 1 : Découvrir les ressources humaines
+## <a name="exercise-1-explore-human-resources"></a>Exercice 1 : Découvrir les ressources humaines
 
-### Créer un enregistrement de nouvel employé
+### <a name="create-a-new-hire-record"></a>Créer un enregistrement de nouvel employé
 
 1. À l’aide du volet de navigation, sélectionnez **Modules** > **Ressources humaines** > **Postes** > **Postes**.
 
@@ -38,7 +43,7 @@ Au cours de ce labo, vous découvrirez le processus d’intégration des nouveau
     | Nom | Smith |
     | Date de début de l’emploi | Sélectionnez la date du jour|
 
-### Créez un objectif pour le nouvel employé
+### <a name="create-a-goal-for-the-new-hire"></a>Créer un objectif pour le nouvel employé
 
 1. Dans le volet Actions, sélectionnez **Collaborateur**.
 
@@ -53,8 +58,8 @@ Au cours de ce labo, vous découvrirez le processus d’intégration des nouveau
     | **Paramètre** | **Valeur** |
     | :--- | :---- |
     | Nom | Objectif de ventes trimestriel |
-    | Présentation | Aider l’équipe du magasin à atteindre l’objectif de ventes trimestriel |
-    | Catégorie d’objectif | Ventes |
+    | Vue d'ensemble | Aider l’équipe du magasin à atteindre l’objectif de ventes trimestriel |
+    | Catégorie d’objectif | Sales |
     | Date de début | Sélectionnez une date à une semaine à compter de la date du jour. |
     | Date de fin | Sélectionnez une date deux semaines à compter de la date de début. |
 
@@ -62,11 +67,11 @@ Au cours de ce labo, vous découvrirez le processus d’intégration des nouveau
 
 1. Fermez la page Objectif de ventes trimestriel.
 
-1. Fermez les objectifs. | Page de Bill
+1. Fermer les objectifs | Page de Bill.
 
-### Assigner une formation au nouvel employé
+### <a name="assign-learning-course-to-the-new-hire"></a>Assigner une formation au nouvel employé
 
-1. Sur la page Employés pour Bill, dans le volet Actions, sélectionnez **Collaborateur**.
+1. Sur la page Employés pour Bill, dans le volet Actions, sélectionnez **Collaborateur**
 
 1. Dans l’onglet **COMPÉTENCES**, sélectionnez **Cours**.
 
@@ -84,9 +89,9 @@ Au cours de ce labo, vous découvrirez le processus d’intégration des nouveau
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
-1. Fermer les cours | Page de Bill
+1. Fermer les cours | Page de Bill.
 
-### Créer une note de frais
+### <a name="create-an-expense-report"></a>Créer une note de frais
 
 1. À l’aide du volet de navigation, sélectionnez **Modules** > **Ressources humaines** > **Espaces de travail** > **Libre-service employé**.
 
@@ -101,7 +106,7 @@ Au cours de ce labo, vous découvrirez le processus d’intégration des nouveau
     | Date de la transaction | Sélectionnez la date du jour |
     | Catégorie de dépenses | Location de voiture |
     | Marchand | LitWare Travel |
-    | Montant de la transaction | 150,00 |
+    | Montant de la transaction | 150.00 |
 
 1. À l’aide de la machine virtuelle du labo, ouvrez le **Bloc-notes**.
 
@@ -135,9 +140,9 @@ Au cours de ce labo, vous découvrirez le processus d’intégration des nouveau
 
 1. Sélectionnez **Envoyer**.
 
-### Journal d’enregistrement des performances
+### <a name="record-performance-journal"></a>Journal d’enregistrement des performances
 
-1. À l’aide du volet de navigation, sélectionnez **Modules** > **Ressources humaines** > **Performances** > **Journal des performances**.
+1. À l’aide du volet de navigation, sélectionnez **Modules** > **Ressources humaines** > **Performances** > **Journal des performances**
 
 1. Dans le volet Actions, sélectionnez **+ Nouveau**.
 
@@ -149,7 +154,7 @@ Au cours de ce labo, vous découvrirez le processus d’intégration des nouveau
     | Titre | Formation suivie |
     | Description | Formation métier suivie pour le poste de directeur de magasin |
     | Personne | Bill Smith |
-    | Date de fin | Date du jour |
+    | Date d'achèvement | Date du jour |
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 

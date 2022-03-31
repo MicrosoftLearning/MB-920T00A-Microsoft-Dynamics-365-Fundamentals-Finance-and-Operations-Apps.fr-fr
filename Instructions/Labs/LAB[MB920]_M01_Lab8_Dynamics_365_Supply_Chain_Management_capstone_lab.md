@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Labo 8 : Labo Capstone de Dynamics 365 Supply Chain Management'
-    module: 'Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Labo 8 : Labo Capstone de Dynamics 365 Supply Chain Management'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 05fc7cf7a81164c2cabf3637e307dcae2ca5d3f7
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909586"
 ---
+## <a name="lab-8---dynamics-365-supply-chain-management-capstone-lab"></a>Labo 8 : Labo Capstone de Dynamics 365 Supply Chain Management
 
-## Labo 8 : Labo Capstone de Dynamics 365 Supply Chain Management
-
-## Objectif
+## <a name="objective"></a>Objectif
 
 Au cours de ce labo, vous découvrirez la création de produits et la gestion des prix. Vous apprendrez également des processus métier essentiels des chaînes logistiques, comme la gestion des stocks et l’approvisionnement.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
-- **Durée estimée** : 45 minutes 
+- **Durée estimée** : 45 minutes 
 
-## Exercice 1 : Découvrir la gestion des produits
+## <a name="exercise-1-explore-product-management"></a>Exercice 1 : Découvrir la gestion des produits
 
-### Créer un produit
+### <a name="create-a-product"></a>Créer un produit
 
 Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour une nouvelle configuration d’enceinte à acheter auprès des fournisseurs.
 
@@ -24,7 +29,7 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Dans le cas contraire, sélectionnez l’entreprise affichée et modifiez-la pour passer à **USMF**.
 
-1. À l’aide du volet de navigation, sélectionnez **Modules** > **Gestion des informations produit** > **Produits** > **Produits lancés**.
+1. À l’aide du volet de navigation, sélectionnez **Modules** > **Gestion des informations produit** > **Produits** > **Produits lancés**.
 
 1. Sur la page Détails des produits lancés, dans le volet Actions, sélectionnez **+ Nouveau**.
 
@@ -32,15 +37,15 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Dans le menu **Sous-type de produit**, vérifiez que **Produit** est sélectionné.
 
-1. Dans le menu **Groupe de dimension de suivi**, sélectionnez **Aucun**.
+1. Dans le menu **Groupe de dimension de suivi**, puis sélectionnez **Aucun**.
 
 1. Sous **IDENTIFICATION**, dans le champ **Numéro de produit**, saisissez **GTL201**.
 
 1. Dans la zone **Nom du produit**, saisissez **Enceinte**.
 
-1. Sous **IMPOSITION SUR LES VENTES**, sélectionnez le menu **Groupe de taxe de vente d’article**, puis sélectionnez **TOUT**.
+1. Sous **IMPOSITION SUR LES VENTES**, sélectionnez le menu **Groupe de taxe d’article**, puis sélectionnez **TOUT**.
 
-1. Sous **IMPOSITION SUR LES ACHATS**, sélectionnez le menu **Groupe de taxe de vente d’article**, puis sélectionnez **TOUT**.
+1. Sous **IMPOSITION SUR LES ACHATS**, sélectionnez le menu **Groupe de taxe d’article**, puis sélectionnez **TOUT**.
 
 1. Sous **PRIX**, dans le champ **Prix d’achat**, saisissez **30,00**.
 
@@ -50,18 +55,18 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Dans le menu **Groupe d’articles**, sélectionnez **CarAudio**.
 
-1. Dans le menu **Groupe de dimensions de stockage**, sélectionnez **SiteWH**.
+1. Dans le menu **Groupe de dimension de stockage**, puis sélectionnez **SiteWH**.
 
 1. Sous **UNITÉS DE MESURES**, vérifiez que les valeurs suivantes sont définies :
 
     | **Paramètre**| **Valeur**|
     | :--- | :--- |
-    | Unité de stock| pièce|
-    | Unité d’achat| pièce|
-    | Unité de vente| pièce|
-    | Unité de nomenclature| pièce|
+    | Unité de stock| ea|
+    | Unité d’achat| ea|
+    | Unité de vente| ea|
+    | Unité de nomenclature| ea|
 
-1. Cliquez sur **OK**.
+1. Sélectionnez **OK**.
 
 1. Pour vous assurer que le produit est finalisé, dans le volet Actions, sélectionnez **Produit**, puis, sous **Mettre à jour**, sélectionnez **Contrôler**.
 
@@ -69,9 +74,9 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Fermez toutes les pages et revenez à la page d’accueil.
 
-## Exercice 2 : Découvrir la gestion des entrepôts
+## <a name="exercise-2-explore-warehouse-management"></a>Exercice 2 : Découvrir la gestion des entrepôts
 
-### Créer un entrepôt
+### <a name="create-a-warehouse"></a>Créer un entrepôt
 
 1. À l’aide du volet de navigation, sélectionnez **Modules** > **Gestion des stocks** > **Configuration** > **Décomposition du stock** > **Entrepôts**.
 
@@ -87,27 +92,27 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Les options de cette section définissent le format par défaut des noms d’emplacement.
 
-1. Définissez les options **Inclure allée** et **Inclure rayon** sur **Oui**.
+1. Définissez les optons **Inclure l’allée** et **Inclure le rayon** sur **Oui**.
 
-1. Définissez l’option **Inclure étagère** sur **Oui**.
+1. Définissez l’option **Inclure l’étagère** sur **Oui**.
 
-1. Dans le champ **Format** pour l’étagère, saisissez **-##**.
+1. Dans le champ **Format** pour l’étagère, saisissez **-##** .
 
 1. Dans le volet Actions, sélectionnez **Entrepôt**.
 
-1. Sous **Mettre à jour**, sélectionnez **Assistant Emplacement**.
+1. Sous **Mettre à jour**, sélectionnez **Assistant magasin**.
 
-1. Sur la page d’accueil, vérifiez les informations, puis sélectionnez **Suivant** dans le coin inférieur droit.
+1. Sur la page d’accueil, vérifiez les informations, puis cliquez sur **Suivant** dans le coin inférieur droit.
 
 1. Décochez les cases **Quais de réception** et **Emplacements de stockage en gros**.
 
-1. Sélectionnez **Suivant** et vérifiez les informations.
+1. Cliquez sur **Suivant** et vérifiez les informations.
 
-1. Continuez sur chaque page, puis une fois ce travail terminé, sélectionnez **Terminer**.
+1. Continuez sur chaque page, puis une fois ce travail terminé, cliquez sur **Terminer**.
 
 1. Fermez la page et revenez à la page d’accueil.
 
-### Créer un accord commercial pour le prix de vente
+### <a name="create-a-trade-agreement-for-sales-price"></a>Créer un accord commercial pour le prix de vente
 
 1. À l’aide du volet de navigation, sélectionnez **Modules** > **Gestion des informations produit** > **Produits** > **Produits lancés**.
 
@@ -155,9 +160,9 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Fermez les pages et revenez à la page d’accueil.
 
-## Exercice 3 : Découvrir la gestion de la production
+## <a name="exercise-3-explore-production-management"></a>Exercice 3 : Découvrir la gestion de la production
 
-### Créer un ordre de fabrication pour un produit
+### <a name="create-a-production-order-for-a-product"></a>Créer un ordre de fabrication pour un produit
 
 1. À l’aide du volet de navigation, sélectionnez **Modules** > **Contrôle de la production** > **Ordres de fabrication** > **Tous les ordres de fabrication**.
 
@@ -171,13 +176,13 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Dans le champ **Quantité**, saisissez **30**.
 
-1. Sélectionnez **Créer**.
+1. Sélectionnez **Create** (Créer).
 
 1. Fermez toutes les pages et revenez à la page d’accueil.
 
-## Exercice 4 : Découvrir la gestion des stocks
+## <a name="exercise-4-explore-inventory-management"></a>Exercice 4 : Découvrir la gestion des stocks
 
-### Créer un journal de comptage avec le produit pour l’entrepôt créé
+### <a name="create-a-count-journal-with-the-product-for-the-created-warehouse"></a>Créer un journal de comptage avec le produit pour l’entrepôt créé
 
 1. À l’aide du volet de navigation, sélectionnez **Modules** > **Gestion des stocks** > **Entrées de journal** > **Inventaire des articles > Comptage**.
 
@@ -197,7 +202,7 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Ceci définira le nombre d’articles stockés dans l’entrepôt pour ce produit.
 
-1. Dans le volet Actions, sélectionnez **Contrôler**.
+1. Dans le volet Actions, cliquez sur **Contrôler**.
 
 1. Dans le volet **Vérifier le journal**, sélectionnez **OK**.
 
@@ -207,7 +212,7 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Fermez toutes les pages et revenez à la page d’accueil.
 
-### Consulter le stock disponible pour le produit
+### <a name="check-on-hand-inventory-for-the-product"></a>Consulter le stock disponible pour le produit
 
 1. À l’aide du volet de navigation, sélectionnez **Modules** > **Gestion des stocks** > **Recherches et états** > **Liste disponible**.
 
@@ -221,9 +226,9 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Fermez toutes les pages et revenez à la page d’accueil.
 
-## Exercice 5 : Découvrir les approvisionnements
+## <a name="exercise-5-explore-procurement-and-sourcing"></a>Exercice 5 : Découvrir les approvisionnements
 
-### Créer une commande fournisseur avec un produit
+### <a name="create-a-purchase-order-with-a-product"></a>Créer une commande fournisseur avec un produit
 
 1. À l’aide du volet de navigation, sélectionnez **Modules** > **Approvisionnements** > **Commandes fournisseur** > **Toutes les commandes fournisseur**.
 
@@ -255,7 +260,7 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Dans la colonne **Numéro de variante**, sélectionnez le menu, puis sélectionnez l’une des couleurs.
 
-1. Dans le champ **Quantité**, entrez **15**.
+1. Dans le champ **Quantité**, saisissez **15**.
 
 1. Sous les **Lignes de commande fournisseur**, au bas de la page, sélectionnez le raccourci **Détails de ligne**.
 

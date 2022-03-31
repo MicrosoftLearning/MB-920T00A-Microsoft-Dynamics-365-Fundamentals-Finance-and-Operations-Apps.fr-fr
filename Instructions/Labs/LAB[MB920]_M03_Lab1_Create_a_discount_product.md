@@ -1,20 +1,25 @@
 ---
 lab:
-    title: 'Labo 1 : Créer une réduction sur un produit'
-    module: 'Module 3 : Découvrir les principes de base de Microsoft Dynamics 365 Commerce'
+  title: 'Labo 1 : Créer un produit avec une remise'
+  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
+ms.openlocfilehash: 2d3a61398c6184a9b43e2fd0da9d28cb55f55ee5
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909576"
 ---
+## <a name="lab-1---create-a-discount-product"></a>Labo 1 : Créer une réduction sur un produit
 
-## Labo 1 : Créer une réduction sur un produit
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 
 Le magasin de Boston de votre entreprise est prêt à stimuler les ventes de certains produits qui doivent être vendus afin de faire de la place pour la nouvelle gamme. Vous devez créer et activer une nouvelle remise de produit.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
    - **Durée estimée** : 10 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
 1. Sur la page Finance and Operations, en haut à gauche, sélectionnez le menu hamburger **Développer le volet de navigation**.
 
@@ -32,7 +37,7 @@ Le magasin de Boston de votre entreprise est prêt à stimuler les ventes de cer
 
 1. Sélectionnez le menu **Mode de simultanéité de la remise**, passez en revue les options disponibles, puis sélectionnez **Meilleur prix**.
 
-    >[!REMARQUE] Lorsque vous choisissez entre les options de mode concurrentiel, gardez à l’esprit les éléments suivants :
+    >[!NOTE] Lorsque vous choisissez entre les options de mode de simultanéité, gardez à l’esprit les éléments suivants :
     >
     >  - Lorsque plusieurs remises composées sont applicables, la remise la plus élevée sera toujours calculée en premier.  La remise la plus élevée suivante est ensuite calculée sur le montant restant.  Cette hiérarchie de calcul se poursuit jusqu’à ce que toutes les remises composées applicables aient été appliquées.  
     >    **Correct** : Réduction de 40 % + réduction de 20 % = réduction de 52 %  
@@ -70,7 +75,7 @@ Le magasin de Boston de votre entreprise est prêt à stimuler les ventes de cer
 
 1. Dans le menu, sélectionnez **+ Ajouter**.
 
-1. Sélectionnez le menu **Catégorie**, puis **Mode (Mode)**.
+1. Sélectionnez le menu **Catégorie**, puis **Mode (Mode)** .
 
 1. La remise est alors appliquée à tous les produits de la catégorie Mode.
 

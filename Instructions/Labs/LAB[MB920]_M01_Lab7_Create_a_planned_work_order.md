@@ -1,10 +1,15 @@
 ---
 lab:
-    title: 'Labo 7 : Créer un ordre de travail de maintenance'
-    module: 'Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Labo 7 : Créer un ordre de travail de maintenance'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: ae848333194143720a6f5ebb598d5d566bc2260f
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909572"
 ---
-
-## Labo 7 : Créer un ordre de travail de maintenance
+## <a name="lab-7---create-a-maintenance-work-order"></a>Labo 7 : Créer un ordre de travail de maintenance
 
 **Objectifs**
 
@@ -20,7 +25,7 @@ Durée estimée : 15 minutes.
 
 2. Si nécessaire, sélectionnez la société, puis, dans le menu, **USMF**.
 
-3. Dans le volet de navigation de gauche, sélectionnez **Modules** **&gt;Gestion des actifs &gt; Configuration &gt; Demande de maintenance &gt; État du cycle de vie.**
+3. Dans le volet de navigation de gauche, sélectionnez **Modules** **&gt; Gestion des actifs &gt; Configuration &gt; Demande de maintenance &gt; État du cycle de vie.**
 
 4. Sélectionnez InProgress et cliquez sur le bouton **Modifier** dans le volet Action.
 
@@ -32,19 +37,19 @@ Durée estimée : 15 minutes.
 
 8. Entrez les valeurs suivantes dans les champs de la boîte de dialogue, puis cliquez sur le bouton **OK**.
 
-	- Type de demande de maintenance : Corrective
+    - Type de demande de maintenance : Corrective
 
-	- Description : Bruit dans le détecteur de métal
+    - Description : Bruit dans le détecteur de métal
 
-	- Emplacement fonctionnel PP-02-02
+    - Emplacement fonctionnel : PP-02-02
 
-	- Actif : MD-201
+    - Ressource : MD-201
 
-	- Niveau de service : 4
+    - Niveau de service : 4
 
-	- Symptôme de défaillance : Bruit excessif
+    - Symptôme de défaillance : Bruit excessif
 
-	- Zone de défaillance : Électrique 
+    - Zone de défaillance : Électrique 
 
 9. Fermez le formulaire **Demande de maintenance** et revenez à l’espace de travail **Gestion des demandes de maintenance**.
 
@@ -65,7 +70,7 @@ Durée estimée : 15 minutes.
 
 15. Entrez les valeurs suivantes dans les champs de la boîte de dialogue, puis cliquez sur le bouton **OK**.
 
-	- Type de travail de maintenance : Inspection
+    - Type de travail de maintenance : Inspection
 
 16. Un nouvel ordre de travail sera créé, et l’ordre de travail sera mis à jour dans l’enregistrement de la demande de maintenance sélectionnée.
 
@@ -75,9 +80,9 @@ Durée estimée : 15 minutes.
 
 19. Entrez les valeurs suivantes dans les champs de la boîte de dialogue, puis cliquez sur le bouton **OK**.
 
-	- Collaborateur : Ted Howard
+    - Collaborateur : Ted Howard
 
-20. Dans le menu Action, accédez à **Ordre de travail &gt; État du cycle de vie &gt; Mettre à jour l’état du cycle de vie**.
+20. Dans le menu Action, accédez à **Ordre de travail &gt; État du cycle de vie &gt; Mettre à jour l’état du cycle de vie.**
 
 21. Dans la boîte de dialogue, cochez la case à côté de InProgress et cliquez sur **OK**
 
@@ -85,7 +90,7 @@ Durée estimée : 15 minutes.
 
 22. Sélectionnez la date et l’heure pour **Début réel** dans la boîte de dialogue et cliquez sur **OK.**
 
-23. Dans le menu d’action Ordre de travail, accédez à **Ordre de travail &gt; État du cycle de vie &gt; Mettre à jour l’état du cycle de vie**.
+23. Dans le menu d’action Ordre de travail, accédez à **Ordre de travail &gt; État du cycle de vie &gt; Mettre à jour l’état du cycle de vie.**
 
 24. Dans la boîte de dialogue, cochez la case à côté de InProgress et cliquez sur **OK**
 

@@ -1,14 +1,19 @@
 ---
 demo:
-    title: 'Démonstration 3 : Découvrir les coûts de projet'
-    module: 'Module 5 : Découvrir les principes de base de Microsoft Dynamics 365 Project Operations'
+  title: 'Démonstration 3 : Découvrir les coûts de projet'
+  module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
+ms.openlocfilehash: ca5f0816e2d018c01ab7e24b43219ff32c0e693e
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909414"
 ---
-
-## Démonstration 3 : Découvrir les coûts de projet
+## <a name="demo-3---explore-project-costs"></a>Démonstration 3 : Découvrir les coûts de projet
 
 Dans cette démonstration, nous allons voir comment créer une entrée de temps et de dépense qui sera facturée au projet Contoso Consulting. Nous allons également découvrir les entrées dans des formats optimisés pour les appareils mobiles et le Web, ainsi que l’utilisation d’un workflow pour gérer le processus d’approbation.
 
-1. Dans le volet de navigation de **Dynamics 365 for Finance and Operations**, sélectionnez **Modules > Gestion et comptabilité des projets > Feuilles de temps > Mes feuilles de temps (optimisées pour mobile)**.  
+1. Dans le volet de navigation de **Dynamics 365 for Finance and Operations**, sélectionnez **Modules > Gestion et comptabilité des projets > Feuilles de temps > Mes feuilles de temps (optimisées pour mobile)** .  
     Avant toute chose, observons que les écrans affichés en sélectionnant l’option **Mes feuilles de temps (optimisées pour mobile)** sont compatibles avec les appareils mobiles, même si nous n’en utilisons pas en ce moment même.
 
     ![Capture d’écran du menu Gestion et comptabilité des projets où l’option Mes feuilles de temps (optimisées pour mobile) est mise en surbrillance.](./media/projops_costs_1_select_my_timesheets.png)  
@@ -26,9 +31,9 @@ Dans cette démonstration, nous allons voir comment créer une entrée de temps 
 1. Pointez sur **Créer à partir des favoris**.  
     Si vous avez des favoris enregistrés, vous pouvez les utiliser pour créer vos prochaines feuilles de temps et ainsi gagner du temps.
 
-1. Une fois terminé, sélectionnez **OK**.
+1. Quand vous avez terminé, sélectionnez **OK**.
 
-1. Sur la page **Mes détails de feuilles de temps**, sélectionnez l’icône **Nouveau +**.
+1. Sur la page **Mes détails de feuilles de temps**, sélectionnez l’icône **Nouveau +** .
 
 1. Dans le volet **Nouvelle ligne de feuille de temps**, pointez sur la zone **Entité juridique**.  
     Cela permet d’ouvrir une nouvelle ligne de feuille de temps, qui contient des détails comme le client, le projet, la catégorie, les propriétés de ligne et les paramètres de taxe. Vous pouvez également sélectionner une autre entité juridique si l’entrée de temps est saisie pour le compte d’une autre société au sein de votre organisation.
@@ -37,7 +42,7 @@ Dans cette démonstration, nous allons voir comment créer une entrée de temps 
 
 1. Sélectionnez l’un des projets disponibles, tel que le projet **Contoso Consulting**.
 
-1. Une fois terminé, sélectionnez **OK**.  
+1. Quand vous avez terminé, sélectionnez **OK**.  
     L’écran optimisé pour les appareils mobiles et consacré à l’entrée de temps s’affiche. Vous pouvez commencer à réserver vos heures pour le projet et la catégorie, à savoir **Service** dans notre cas, et ce pour chaque jour.
 
 1. Sur la page **Saisie de l’heure**, saisissez **8** dans la zone **Lun**.  
@@ -103,7 +108,7 @@ Ici, nous pouvons saisir la nouvelle dépense, ainsi que des détails à son suj
 
 1. Dans la colonne **Devise**, sélectionnez **USD**.
 
-1. Dans la colonne **Date de transaction**, sélectionnez une date. Par exemple, **01/02/2021**.  
+1. Dans la colonne **Date de transaction**, sélectionnez une date. Par exemple, **2/1/2021**.  
     Une fois les détails saisis, vous pouvez enregistrer la dépense.
 
 1. Sélectionnez **Enregistrer**.

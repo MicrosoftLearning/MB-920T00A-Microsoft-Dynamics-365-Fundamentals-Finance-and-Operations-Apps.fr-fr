@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Labo 4 : Créer une commande fournisseur'
-    module: 'Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Labo 4 : Créer une commande fournisseur'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 04c349859896368763e172203a4bec80073c35bf
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909564"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Module 1 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
 
-# Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-4---create-a-purchase-order"></a>Labo 4 : Créer une commande fournisseur
 
-## Labo 4 : Créer une commande fournisseur
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 
 Les commandes fournisseur sont généralement créées automatiquement dans le cadre de la planification générale, de la livraison directe et d’autres processus. Une commande fournisseur créée manuellement est généralement créée par un agent d’achats. Créez une commande fournisseur à l’aide de la société USMF.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
    - **Durée estimée** : 10 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
 1. Sur la page d’accueil de Finance and Operations, en haut à droite, vérifiez que vous travaillez avec la société USMF.
 
@@ -84,7 +89,7 @@ Les commandes fournisseur sont généralement créées automatiquement dans le c
 
 1. Quelques informations supplémentaires :
 
-    - **Unité** : Indique l’unité de mesure de la quantité commandée. Normalement, l’unité est automatiquement fournie à partir de l’unité d’achat sur les données principales du produit.
+    - **Unité** : Indique l’unité de mesure de la quantité commandée. Normalement, l’unité est automatiquement fournie à partir de l’unité d’achat sur les données principales du produit.
 
     - **Prix unitaire** : Contient une valeur provenant d’un contrat d’achat ou d’un accord commercial. Il est possible de modifier le prix unitaire de lignes de commande individuelles : par exemple si un prix unique est négocié avec le fournisseur.
 

@@ -1,28 +1,33 @@
 ---
 lab:
-    title: 'Labo 6 : Créer un ordre de fabrication'
-    module: 'Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Labo 6 : Créer un ordre de fabrication'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 222c557f935bc0dcfaa4f2e96049774f141ea028
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909447"
 ---
+## <a name="lab-6---create-a-production-order"></a>Labo 6 : Créer un ordre de fabrication
 
-## Labo 6 : Créer un ordre de fabrication
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 
 L’ordre de fabrication contient des informations sur ce qui doit être produit, la quantité et la date de fin prévue. Il contient également des informations sur les matériaux à utiliser et sur les processus à mettre en œuvre pour produire l’article.
 
 Vous devez créer un ordre de fabrication pour votre entreprise.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
    - **Durée estimée** : 5 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
 1. Sur la page d’accueil de Finance and Operations, en haut à droite, vérifiez que vous travaillez avec la société USMF.
 
 1. Si nécessaire, sélectionnez la société, puis, dans le menu, **USMF**.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Modules** > **Contrôle de la production** > **Ordres de fabrication** > **Tous les ordres de fabrication**.
+1. Dans le volet de navigation de gauche, sélectionnez **Modules** > **Contrôle de la production** > **Ordres de fabrication** > **Tous les ordres de fabrication**.
 
 1. Dans le menu supérieur, sélectionnez **Nouvel ordre de fabrication**.
 
@@ -37,4 +42,4 @@ Vous devez créer un ordre de fabrication pour votre entreprise.
 
     ![Capture d’écran montrant le volet Créer un ordre de fabrication complet](./media/lp1-m4-new-production-order-pane.png)
 
-1. Sélectionnez **Créer**.
+1. Sélectionnez **Create** (Créer).

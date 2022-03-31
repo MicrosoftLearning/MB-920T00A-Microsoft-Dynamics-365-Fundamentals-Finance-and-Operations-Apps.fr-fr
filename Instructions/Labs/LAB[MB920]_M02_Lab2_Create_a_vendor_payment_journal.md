@@ -1,12 +1,17 @@
 ---
 lab:
-    title: 'Labo 2 : Créer un journal des paiements fournisseur'
-    module: 'Module 2 : Découvrir les principes de base de Microsoft Dynamics 365 Finance'
+  title: 'Labo 2 : Créer le journal des paiements fournisseur'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: cc38bf9c77d8b5d45e8a27f0a8f766d7834e065a
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909613"
 ---
+## <a name="lab-2---create-a-vendor-payment-journal"></a>Labo 2 : Créer un journal des paiements fournisseur
 
-## Labo 2 : Créer un journal des paiements fournisseur
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 
 Les organisations qui paient leurs fournisseurs selon un planning récurrent peuvent maintenant automatiser la génération de propositions de paiements fournisseurs. Ces automatisations définissent les points suivants :
 
@@ -18,17 +23,17 @@ Ces automatisations de propositions de paiement ne lancent pas les paiements aut
 
 Créez une nouvelle entrée dans le journal des paiements fournisseur ainsi qu’une proposition de paiement.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
    - **Durée estimée** : 10 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
 1. Sur la page d’accueil de Finance and Operations, en haut à droite, vérifiez que vous travaillez avec la société USMF.
 
 1. Si nécessaire, sélectionnez la société, puis, dans le menu, **USMF**.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Modules** > **Comptabilité fournisseur** > **Paiements** > **Journal des paiements fournisseur**.
+1. Dans le volet de navigation de gauche, sélectionnez **Modules** > **Comptabilité fournisseur** > **Paiements** > **Journal des paiements du fournisseur**.
 
 1. Dans le menu en haut sélectionnez **+ Nouveau**.
 
@@ -47,7 +52,7 @@ Créez une nouvelle entrée dans le journal des paiements fournisseur ainsi qu�
 
 1. Dans les champs **Date de début** et **Date de fin**, supprimez toute valeur existante. Pour cet exercice, ces plages de dates sont laissées vides.
 
-    >[!REMARQUE] Vous pouvez utiliser une date de paiement minimale comme date de paiement. La date de paiement minimale est la première date utilisée lors de la création des paiements. Par exemple, si une facture a une date d’échéance après la date de paiement minimale, la date d’échéance devient la date de paiement au lieu de la date de paiement minimale pour payer la facture à la dernière date possible.
+    >[!NOTE] Vous pouvez utiliser une date de paiement minimale comme date de paiement. La date de paiement minimale est la première date utilisée lors de la création des paiements. Par exemple, si une facture a une date d’échéance après la date de paiement minimale, la date d’échéance devient la date de paiement au lieu de la date de paiement minimale pour payer la facture à la dernière date possible.
 
 1. Développez **Enregistrements à inclure** et examinez les options.  
     Le filtre est souvent utilisé pour restreindre le nombre de factures sélectionnées pour le paiement par groupe de fournisseurs ou par mode de paiement. Par exemple, vous pourriez ajouter un filtre pour payer uniquement les factures par chèque dans ce cycle de paie.
@@ -72,7 +77,7 @@ Créez une nouvelle entrée dans le journal des paiements fournisseur ainsi qu�
 
     ![Capture d’écran de la page Proposition de paiement fournisseur avec des articles sélectionnés et l’option de suppression en surbrillance dans le menu](./media/lp2-m4-vendor-payment-proposal-remove-selected-invoices.png)
 
-1. Sélectionnez **Oui** dans la boîte de dialogue.
+1. Dans la boîte de dialogue, sélectionnez **Oui**.
 
 1. Examinez les trois factures restantes.
 

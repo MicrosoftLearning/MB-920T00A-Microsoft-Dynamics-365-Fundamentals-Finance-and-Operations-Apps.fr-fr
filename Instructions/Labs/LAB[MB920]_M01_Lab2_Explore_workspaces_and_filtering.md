@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Labo 2 : Découvrir les espaces de travail et le filtrage'
-    module: 'Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Labo 2 : Découvrir les espaces de travail et les techniques de filtrage'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 0a2815e312b9798dcf93ec6cee669eb65a1f9942
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909548"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Module 1 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
 
-# Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-2---explore-workspaces-and-filtering"></a>Labo 2 : Découvrir les espaces de travail et le filtrage
 
-## Labo 2 : Découvrir les espaces de travail et le filtrage
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 
 De nombreux espaces de travail intégrés sont disponibles lorsque vous vous connectez pour la première fois à Finance and Operations. Vous pouvez également créer votre propre espace de travail avec un contenu axé sur l’un de vos éventuels besoins. Les espaces de travail sont l’une des nombreuses fonctionnalités de Dynamics 365, mais sachez également que le filtrage est le moyen d’accéder réellement aux éléments spécifiques que vous recherchez. Vous devez créer un espace de travail personnalisé et utiliser le filtrage pour identifier les différents éléments dont vous avez besoin.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
    - **Durée estimée** : 10 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
 1. Sur la page d’accueil de Finance and Operations, à droite des vignettes d’espace de travail, cliquez avec le bouton droit ou appuyez longuement sur une zone vide pour déclencher le menu.
 
@@ -45,7 +50,7 @@ De nombreux espaces de travail intégrés sont disponibles lorsque vous vous con
 
 1. Sélectionnez votre vignette **Mon espace de travail**, puis déplacez-la vers un autre emplacement sur la page d’accueil.
 
-    >[!Remarque] Si vous ne parvenez pas à déplacer la vignette, actualisez la page et réessayez les étapes précédentes afin de la déplacer.
+    >[!Note] Si vous ne parvenez pas à déplacer la vignette, actualisez la page et réessayez les étapes précédentes afin de la déplacer.
 
 1. Fermez la barre d’outils.
 
@@ -75,7 +80,7 @@ De nombreux espaces de travail intégrés sont disponibles lorsque vous vous con
 
     ![Capture d’écran du filtre permettant de trouver Contoso](./media/m1-common-filter-vendor-contoso.png)
 
-1. Sélectionnez **Nom : « Contoso »**, puis consultez les résultats du filtre.
+1. Sélectionnez **Name: "Contoso"** , puis consultez les résultats du filtre.
 
 1. Effacez la zone de filtre, puis appuyez sur Entrée pour afficher tous les fournisseurs.
 

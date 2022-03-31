@@ -1,14 +1,19 @@
 ---
 lab:
-    title: 'Labo 5 : Créer un entrepôt'
-    module: 'Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Labo 5 : Créer un entrepôt'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 919ea602b0768683acd845dd184b3bf5a0364fd0
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909465"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Module 1 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
 
-# Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-5---create-a-warehouse"></a>Labo 5 : Créer un entrepôt
 
-## Labo 5 : Créer un entrepôt
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 Le système de gestion des entrepôts dans Supply Chain Management offre des moyens flexibles de définir la structure de votre entrepôt en vue de répondre à des besoins changeants afin que vous puissiez atteindre une efficacité d’entrepôt optimale.
 
 - Vous pouvez établir des zones de stockage de haute priorité et basse priorité pour un placement optimal des produits.
@@ -19,11 +24,11 @@ Le système de gestion des entrepôts dans Supply Chain Management offre des moy
 
 Pour utiliser la gestion des entrepôts dans Supply Chain Management, vous devez créer un entrepôt et l’activer pour des activités de gestion des entrepôts plus avancées ou spécialisées.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
    - **Durée estimée** : 10 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
 1. Sur la page d’accueil de Finance and Operations, en haut à droite, vérifiez que vous travaillez avec la société USMF.
 
@@ -33,38 +38,38 @@ Pour utiliser la gestion des entrepôts dans Supply Chain Management, vous devez
 
     ![Capture d’écran affichant la navigation dans le module Entrepôts](./media/lp1-m3-warehouses-module-navigation.png)
 
-1. Sur la page Entrepôts, sélectionnez **Nouveau** dans le menu supérieur.
+1. Sur la page Entrepôts, cliquez sur **Nouveau** dans le menu supérieur.
 
 1. Dans le champ **Entrepôt**, saisissez **101**.
 
-1. Dans le champ **Nom**, tapez **Overflow Warehouse**.
+1. Dans le champ **Nom**, saisissez **Entrepôt de dépassement de capacité**.
 
 1. Sélectionnez le menu **Site**, puis sélectionnez **3 Production de mousse isolante**.
 
-1. Développez **Noms d’emplacement**.  
+1. Développez **Noms de magasin**.  
     Les options de cette section définissent le format par défaut des noms d’emplacement.
 
-1. Définissez les options **Inclure allée** et **Inclure rayon** sur **Oui**.
+1. Définissez les optons **Inclure l’allée** et **Inclure le rayon** sur **Oui**.
 
 1. Dans le champ **Format** pour le rayon, saisissez une valeur.  
     Par exemple, si le format du nom de l’emplacement du rayon doit contenir OVFL, vous devez saisir cette valeur dans le champ Format.
 
 1. Sous **NIVEAU**, définissez l’option **Inclure étagère** sur **Oui**.
 
-1. Dans le champ **Format** pour l’étagère, saisissez **-##**.
+1. Dans le champ **Format** pour l’étagère, saisissez **-##** .
 
 1. Dans le menu supérieur, sélectionnez **Entrepôt**.
 
     ![Capture d’écran affichant l’option de menu Entrepôt mise en surbrillance](./media/lp1-m3-warehouses-menu-option.png)
 
-1. Sous **Mettre à jour**, sélectionnez **Assistant Emplacement**.
+1. Sous **Mettre à jour**, sélectionnez **Assistant magasin**.
 
-1. Sur la page d’accueil, vérifiez les informations, puis sélectionnez **Suivant** dans le coin inférieur droit.
+1. Sur la page d’accueil, vérifiez les informations, puis cliquez sur **Suivant** dans le coin inférieur droit.
 
-1. Décochez les cases **Quais d’expédition** et **Emplacements de stockage en gros**.
+1. Décochez les cases **Quais d’expédition** et **Magasins de stockage en gros**.
 
-1. Sélectionnez **Suivant** et vérifiez les informations.
+1. Cliquez sur **Suivant** et vérifiez les informations.
 
-1. Continuez sur chaque page, puis une fois ce travail terminé, sélectionnez **Terminer**.
+1. Continuez sur chaque page, puis une fois ce travail terminé, cliquez sur **Terminer**.
 
 1. Fermez la page et revenez à la page d’accueil.

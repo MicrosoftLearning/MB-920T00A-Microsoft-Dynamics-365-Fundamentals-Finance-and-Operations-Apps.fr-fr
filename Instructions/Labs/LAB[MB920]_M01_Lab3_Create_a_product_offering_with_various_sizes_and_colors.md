@@ -1,22 +1,27 @@
-﻿---
-lab:
-    title: 'Labo 3 : Créer une offre de produits avec différentes tailles et couleurs'
-    module: 'Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management'
 ---
+lab:
+  title: 'Labo 3 : Créer une offre de produits avec différentes tailles et couleurs'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 268432a06fab68b219e68d0748b959aa089045c4
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909552"
+---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Module 1 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
 
-# Module 1 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-3---create-a-new-product"></a>Labo 3 : Créer un nouveau produit
 
-## Labo 3 : Créer un nouveau produit
-
-## Objectifs
+## <a name="objectives"></a>Objectifs
 
 Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour une nouvelle configuration d’armoire à acheter auprès des fournisseurs.
 
-## Mise en place du labo
+## <a name="lab-setup"></a>Mise en place du labo
 
    - **Durée estimée** : 10 minutes
 
-## Instructions
+## <a name="instructions"></a>Instructions
 
 1. Sur la page d’accueil de Finance and Operations, en haut à droite, vérifiez que vous travaillez avec la société USMF.
 
@@ -32,7 +37,7 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Dans le menu **Sous-type de produit**, vérifiez que **Produit** est sélectionné.
 
-1. Dans le menu **Groupe de dimension de suivi**, sélectionnez **Aucun**.
+1. Dans le menu **Groupe de dimension de suivi**, puis sélectionnez **Aucun**.
 
 1. Sous **IDENTIFICATION**, dans les zones **Numéro de produit** et **Numéro d’article**, saisissez **GTL007**.
 
@@ -42,7 +47,7 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. Dans le menu **Groupe d’articles**, sélectionnez **TV et vidéo**.
 
-1. Dans le menu **Groupe de dimension de stockage**, sélectionnez **SiteWH**.
+1. Dans le menu **Groupe de dimension de stockage**, puis sélectionnez **SiteWH**.
 
 1. Sous **UNITÉS DE MESURES**, vérifiez que les valeurs suivantes sont définies :
 
@@ -53,19 +58,19 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
     | Unité de vente| ea Chaque|
     | Unité de nomenclature| ea Chaque|
 
-1. Sous **IMPOSITION SUR LES VENTES**, sélectionnez le menu **Groupe de taxe de vente d’article**, puis sélectionnez **TOUT**.
+1. Sous **IMPOSITION SUR LES VENTES**, sélectionnez le menu **Groupe de taxe d’article**, puis sélectionnez **TOUT**.
 
-1. Sous **IMPOSITION SUR LES ACHATS**, sélectionnez le menu **Groupe de taxe de vente d’article**, puis sélectionnez **TOUT**.
+1. Sous **IMPOSITION SUR LES ACHATS**, sélectionnez le menu **Groupe de taxe d’article**, puis sélectionnez **TOUT**.
 
-1. Sous PRIX, dans la zone Prix d’achat, saisissez 30,00.
+1. Sous PRIX, dans le champ Prix d’achat, saisissez 30,00.
 
-1. Dans la zone Prix de vente, saisissez 30,00.
+1. Dans le champ Prix de vente, entrez 30,00.
 
 1. Votre nouvelle version du produit doit ressembler à ceci :
 
     ![Image d’écran affichant le formulaire de nouvelle version du produit complété](./media/lp1-m2-new-release-product.png)
 
-1. Cliquez sur **OK**.
+1. Sélectionnez **OK**.
 
 1. Pour vous assurer que le produit est finalisé, dans la barre de ruban, sous **Mettre à jour**, sélectionnez **Valider**.
 
