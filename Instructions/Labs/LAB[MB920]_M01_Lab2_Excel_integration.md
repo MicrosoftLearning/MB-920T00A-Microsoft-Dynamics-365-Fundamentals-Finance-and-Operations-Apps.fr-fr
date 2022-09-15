@@ -1,19 +1,14 @@
 ---
 lab:
-  title: 'Labo 2 : Intégration à Excel'
+  title: "Labo\_2\_: Intégration à Excel"
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
-ms.openlocfilehash: 7388809d8222580e4c6ed9cc38c51800d56b1aa0
-ms.sourcegitcommit: 66b904b57adc52ee5c896858be0924d6778642a7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "147448033"
 ---
+
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Module 1 : Explorer les fonctionnalités principales des applications de finances et d’opérations Dynamics 365
 
 ## <a name="objective"></a>Objectif
 
-Dans ce labo, vous allez apprendre à copier des données Finance and Operations dans Excel avec l’application complémentaire de bureau Dynamics. Vous découvrirez aussi comment la même application peut être utilisée pour insérer des données dans des applications Finance and Operations.
+In this lab, you will learn how to copy data from finance and operations to Excel using Dynamics office add-in app. You will also learn how the same app can be used to insert data into finance and operations apps.
 
 ## <a name="lab-steps"></a>Étapes de l’exercice
 
@@ -27,7 +22,7 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
 4. Sélectionnez **Groupes de fournisseurs** (usmf) et téléchargez le modèle Excel.
 
-5. Enregistrez, puis ouvrez le modèle Excel téléchargé, autorisez-le si nécessaire, fermez l’activation, puis sélectionnez **Activer la modification**. Approuvez ce complément, puis connectez-vous (avec vos mêmes informations d’identification, si vous y êtes invité).
+5. Save and then open the downloaded Excel template, allow it if needed, close activation, and select <bpt id="p1">**</bpt>Enable editing<ept id="p1">**</ept>. Trust this add-in, and then sign in (using your same credentials, if asked).
 
     Toutes les données existantes dans le tableau des groupes de fournisseurs s’affichent dans la feuille de calcul Excel.
 

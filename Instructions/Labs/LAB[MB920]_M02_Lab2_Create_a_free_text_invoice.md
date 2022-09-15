@@ -1,14 +1,9 @@
 ---
 lab:
-  title: 'Labo 2 : Créer une facture financière'
+  title: "Labo\_2\_: Créer une facture financière"
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
-ms.openlocfilehash: 317a260d12d52af49eb38c731f6f10833a30583e
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116289"
 ---
+
 ## <a name="lab-2---create-a-free-text-invoice"></a>Labo 2 : Créer une facture financière
 
 ## <a name="instructions"></a>Instructions

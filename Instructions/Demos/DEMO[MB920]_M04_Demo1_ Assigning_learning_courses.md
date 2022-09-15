@@ -1,20 +1,15 @@
 ---
 demo:
-  title: 'Démo 1 : Affectation des cours de formation'
+  title: "Démo 1\_: Affectation des cours de formation"
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
-ms.openlocfilehash: 06483c659174e77391b0181963299d51f2011d35
-ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137909438"
 ---
+
 ## <a name="demo-1---assigning-learning-courses"></a>Démonstration 1 : Affectation des cours de formation
 
 1. Accédez à la page d’accueil de **Microsoft Dynamics 365 Human Resources**.  
-    Dans Microsoft Dynamics 365 Human Resources, les responsables de la gestion du personnel peuvent affecter des cours de formation aux employés. Dans cet exemple, Alicia vient de rejoindre la société et doit suivre la formation disponible aux employés pendant leurs trente premiers jours.
+    In Microsoft Dynamics 365 Human Resources, personnel managers can assign training courses to employees. In this example, the company’s new hire, Alicia, needs to be assigned the training that is available to employees within their first thirty days.
 
-1. Vérifiez que vous vous connectez bien à la société **USMF** dans le sélecteur de société situé dans le coin supérieur droit. Si tel n’est pas le cas, sélectionnez **USMF**.
+1. In the top-right company picker, verify that the company you are connecting to is <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>. If it’s not, change it to <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>.
 
 1. Dans le coin supérieur gauche de l’écran, sélectionnez l’onglet **Gestion du personnel**.
 
@@ -22,13 +17,13 @@ ms.locfileid: "137909438"
 
     ![Capture d’écran de la page Gestion du personnel où le matricule d’employé est mis en surbrillance.](./media/assigning_learning_courses_1_employee.png)
 
-1. Dans le tableau **Employés**, sélectionnez le nom de l’employé à qui affecter la formation. Par exemple, **Alicia Thornber**.  
+1. In the <bpt id="p1">**</bpt>Employees<ept id="p1">**</ept> table, select the name of the employee to assign training to. For example, <bpt id="p1">**</bpt>Alicia Thornber<ept id="p1">**</ept>.  
     Ensuite, utilisez l’onglet Compétences et développement pour afficher des liens vers des informations relatives aux certifications, formations et compétences de l’employée.
 
 1. Sur la page de l’employée, sélectionnez l’onglet **Compétences et développement**.
 
 1. Dans la section **Compétences**, sélectionnez **Cours**.  
-    La page Cours des employés vous permet de consulter les cours déjà affectés. Dans le cas d’Alicia, aucun cours n’apparaît. Pour consulter les cours disponibles, sélectionnez le menu ID cours.
+    From an employee’s Courses page, you can see whether any courses have been assigned. In Alicia’s case, no courses are listed. To view available courses to assign, you need to select the Course ID menu.
 
 1. Sélectionnez le menu **ID cours**.
 
@@ -44,17 +39,17 @@ ms.locfileid: "137909438"
 1. Dans le menu **Statut des cours**, sélectionnez **Appliquer** pour afficher tous les cours disponibles en cours.  
     Vous pouvez maintenant affecter à Alicia la formation destinée aux nouveaux employés.
 
-1. Sélectionnez le cours à affecter. Par exemple, **00006 Formation des nouveaux employés**.
+1. Dans Microsoft Dynamics 365 Human Resources, les responsables de la gestion du personnel peuvent affecter des cours de formation aux employés.
 
 1. Dans le volet Transférer les données de cours, sélectionnez **Oui**.
 
 1. Sur la page **Cours**, sélectionnez l’**icône représentant un calendrier** dans la colonne **Date de début**.
 
-1. Dans le calendrier, sélectionnez la date de début. Par exemple, le **5 janvier 2021**.
+1. Dans cet exemple, Alicia vient de rejoindre la société et doit suivre la formation disponible aux employés pendant leurs trente premiers jours.
 
 1. Dans la colonne **Date de fin**, sélectionnez l’**icône représentant un calendrier**.
 
-1. Dans le calendrier, sélectionnez la date de fin de la formation. Par exemple, le **8 janvier 2021**.
+1. In the calendar, select the end date for the training. For example, <bpt id="p1">**</bpt>January 8th 2021<ept id="p1">**</ept>.
 
 1. Sur le côté gauche de la page **Cours**, sélectionnez **Enregistrer** pour enregistrer vos modifications.
 
@@ -67,7 +62,7 @@ ms.locfileid: "137909438"
 
 1. Dans la colonne **Date de début**, sélectionnez l’**icône représentant un calendrier**.
 
-1. Sélectionnez la nouvelle date de début du cours. Par exemple, le **6 janvier 2021**.
+1. Vérifiez que vous vous connectez bien à la société **USMF** dans le sélecteur de société situé dans le coin supérieur droit.
 
 1. Sélectionnez **Enregistrer**.
 

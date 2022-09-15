@@ -1,21 +1,16 @@
 ---
 lab:
-  title: 'Labo 2 : Créer une commande fournisseur'
+  title: "Labo\_2\_: Créer une commande fournisseur"
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 3fe707e54f1fe2e84b773f92ca75ba0e025e7f4e
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116290"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Module 3 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
 
 ## <a name="lab-2---create-a-purchase-order"></a>Labo 2 : Créer une commande fournisseur
 
 ## <a name="objectives"></a>Objectifs
 
-Les commandes fournisseur sont généralement créées automatiquement dans le cadre de la planification générale, de la livraison directe et d’autres processus. Une commande fournisseur créée manuellement est généralement créée par un agent d’achats. Créez une commande fournisseur à l’aide de la société USMF.
+It's more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes. When created manually, a purchase order is usually created by a purchasing agent. Create a purchase order using the the USMF company.
 
 ## <a name="lab-setup"></a>Mise en place du labo
 
@@ -35,25 +30,25 @@ Les commandes fournisseur sont généralement créées automatiquement dans le c
 
 1. Dans le volet Créer une commande fournisseur, sélectionnez le menu **Compte fournisseur**, puis sélectionnez **US-101**.
 
-1. Lorsque vous sélectionnez un fournisseur, les détails de l’enregistrement du fournisseur, tels que l’adresse, le compte de facturation, les conditions de livraison et le mode de livraison, sont copiés comme valeurs par défaut dans l’en-tête commande. Vous pouvez modifier ces valeurs à tout moment.
+1. When you select a vendor, details from the vendor record, such as address, invoice account, delivery terms, and delivery mode, will be copied as default values into the order header. You can change these values at any time.
 
 1. Développez la section **Général**.
 
 1. Sous **DIMENSIONS DE STOCKAGE**, sélectionnez le menu **Site** et passez en revue la liste des sites.
 
-1. Le champ Site, avec le champ Entrepôt, spécifie l’endroit dans lequel les produits ou services achetés doivent être livrés. Le site est l’adresse de livraison par défaut. Les deux champs peuvent être renseignés avec des valeurs configurées pour le fournisseur sélectionné, ou vous pouvez les spécifier manuellement.
+1. The Site field, together with the Warehouse field, specifies where the procured goods or services must be delivered. The default delivery address is the site. Both fields can be populated with values set up for the selected vendor, or you can specify them manually.
 
 1. Sous **DATES**, le champ Date de livraison permet de spécifier quand les biens et services achetés doivent être livrés.
 
-1. Vous pouvez indiquer une date de livraison unique pour la commande, ou les lignes de commande individuelles peuvent recevoir des dates de livraison uniques. Si la date de livraison indiquée ici ne peut pas être respectée pour des produits ou services spécifiques en raison de délais plus longs, ces lignes sont créées avec une date de livraison ultérieure pour tenir compte de cela.
+1. You can specify a single delivery date for the order, or the individual order lines can be given unique delivery dates. If the delivery date specified here cannot be met for specific products or services because they have longer lead times, then those lines will be created with a later delivery date to accommodate for this.
 
-1. Développez la section **Administration**. La zone **Auteur commande** peut être utilisée pour indiquer qui passe la commande.
+1. Expand the <bpt id="p1">**</bpt>Administration<ept id="p1">**</ept> section. The <bpt id="p1">**</bpt>Orderer<ept id="p1">**</ept> box can be used to specify who is placing the order.
 
-1. Cela peut être pratique à partager avec le fournisseur au cas où il aurait besoin de contacter cette personne. La valeur peut être attribuée automatiquement si le compte utilisateur actuel est associé à un nom sur la page Utilisateurs.
+1. Les commandes fournisseur sont généralement créées automatiquement dans le cadre de la planification générale, de la livraison directe et d’autres processus.
 
 1. Sélectionnez **OK**.
 
-1. L’en-tête commande est maintenant créé. Lorsque vous travaillez avec des lignes de commande fournisseur, seul un résumé des informations d’en-tête s’affiche. Si vous avez besoin d’afficher le reste des informations, sélectionnez **En-tête**.
+1. Une commande fournisseur créée manuellement est généralement créée par un agent d’achats.
 
     ![Image d’écran affichant l’emplacement du menu En-tête](./media/lp1-m3-purchase-order-header-option.png)
 
@@ -63,7 +58,7 @@ Les commandes fournisseur sont généralement créées automatiquement dans le c
 
 1. Sous **AFFICHAGE**, sélectionnez **Dimensions**.
 
-1. Les produits peuvent être dans des variantes qui sont différenciées par des dimensions, telles que la couleur, la taille ou le style. Les produits peuvent également être configurés pour utiliser des dimensions de stockage, telles que le site et l’entrepôt. Il existe également des dimensions de suivi facultatives, telles que les numéros de lot et de série. Pour améliorer l’efficacité de la saisie des commandes, vous pouvez ajouter les champs de dimension que vous utilisez généralement directement dans la grille de commande.
+1. Créez une commande fournisseur à l’aide de la société USMF.
 
 1. Dans le volet d’affichage Dimensions, sous **DIMENSIONS DE PRODUIT**, cochez la case **Couleur**.
 
@@ -77,7 +72,7 @@ Les commandes fournisseur sont généralement créées automatiquement dans le c
 
 1. Les lignes de commande sont créées pour les produits et services en spécifiant un numéro d’article ou en tant que dépenses en indiquant une catégorie d’approvisionnement.
 
-1. La catégorie d’approvisionnement est utilisée pour ajouter des lignes à l’endroit où les articles achetés sont passés en charges directement, plutôt que d’entrer dans le stock. Cela signifie que si vous devez imputer un achat, vous pouvez le faire en créant une ligne de commande fournisseur qui spécifie une catégorie d’approvisionnement, plutôt que de créer une ligne avec un numéro d’article. Les articles peuvent également être associés à une catégorie d’approvisionnement et dans ce cas, celle-ci s’affiche à titre informatif uniquement.
+1. Procurement category is used for adding lines where procured items are expensed directly, rather than going into inventory. This means that if you need to expense a purchase, you can do this by creating a purchase order line that specifies a procurement category, rather than creating a line with an item number. Items can also be associated with a procurement category and in this case, the procurement category is shown as informational only.
 
 1. Sélectionnez le menu **Couleur**, passez en revue les options disponibles, puis sélectionnez l’une des couleurs ou combinaisons de couleurs.
 
@@ -89,21 +84,21 @@ Les commandes fournisseur sont généralement créées automatiquement dans le c
 
 1. Quelques informations supplémentaires :
 
-    - **Unité** : Indique l’unité de mesure de la quantité commandée. Normalement, l’unité est automatiquement fournie à partir de l’unité d’achat sur les données principales du produit.
+    - <bpt id="p1">**</bpt>Unit<ept id="p1">**</ept>: Indicates the unit of measure for the ordered quantity. Normally, the unit is automatically provided from the purchasing unit on the product master data.
 
-    - **Prix unitaire** : Contient une valeur provenant d’un contrat d’achat ou d’un accord commercial. Il est possible de modifier le prix unitaire de lignes de commande individuelles : par exemple si un prix unique est négocié avec le fournisseur.
+    - <bpt id="p1">**</bpt>Unit price<ept id="p1">**</ept>: Contains a value from either a purchase agreement or a trade agreement. It is possible to change the unit price on individual order lines—for example, if a unique price is negotiated with the vendor.
 
-    - **Remise** : Représente un montant de remise par unité. Cette remise réduit donc le prix unitaire. Elle est généralement fournie automatiquement à partir d’accords d’achat ou d’accords commerciaux, mais il est possible de la remplacer sur des lignes individuelles si des remises uniques ont été négociées avec le fournisseur.
+    - <bpt id="p1">**</bpt>Discount<ept id="p1">**</ept>: Represents a discount amount per unit. This discount therefore reduces the unit price by the discount. This discount is commonly supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if unique discounts have been negotiated with the vendor.
 
-    - **Pourcentage de remise** : Une fois saisi, il réduit le montant net de la ligne en conséquence. Il est souvent fourni automatiquement à partir d’accords d’achat ou d’accords commerciaux, mais il est possible de le remplacer sur des lignes individuelles si un pourcentage de remise a été négocié avec le fournisseur.
+    - <bpt id="p1">**</bpt>Discount percentage<ept id="p1">**</ept>: When entered, this reduces the net amount for the line accordingly. The discount percent is often supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if a unique discount percentage has been negotiated with the vendor.
 
-    - **Montant net** : Calculé à partir d’autres champs de la ligne, notamment la quantité, le prix unitaire, la remise et le pourcentage de remise. Il est possible de modifier le montant net, mais les champs Prix unitaire, Remise et Pourcentage de remise sont vides et lorsque vous passez à la ligne, le montant affiché est proportionnel au montant net. Généralement, le champ Montant net n’est utilisé que pour afficher le montant net de la ligne.
+    - <bpt id="p1">**</bpt>Net amount<ept id="p1">**</ept>: Calculated from other fields on the line, including quantity, unit price, discount, and discount percent. It is possible to change the Net amount, but then the Unit Price, Discount, and Discount percent fields will be blank, and when you post toward the line, the amount posted will be proportional to the net amount. Generally, the Net Amount field is only used for displaying the net amount of the line.
 
 1. Sous les lignes de la commande fournisseur, au bas de la page, sélectionnez **Détails de ligne**.
 
 1. Sélectionnez l’onglet **Livraison**.
 
-1. Une date de livraison unique peut être affectée à chaque ligne de commande. La date est héritée du champ de l’en-tête commande fournisseur, mais vous pouvez la modifier.
+1. A unique delivery date can be assigned to each order line. The date is inherited from the field on the purchase order header, but you can change this.
 
 1. Fermez la page Ligne de commande fournisseur.
 
