@@ -1,10 +1,15 @@
 ---
 demo:
-    title: 'Démonstration 1 : Clôture de fin de mois'
-    module: 'Module 2 : Découvrir les principes de base de Microsoft Dynamics 365 Finance'
+  title: 'Démo 1 : Clôture de fin de mois'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: 64e058508083538795592815e4657ac905000ded
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909408"
 ---
-
-## Démonstration 1 : Clôture de fin de mois
+## <a name="demo-1---month-end-close"></a>Démonstration 1 : Clôture de fin de mois
 
 1. Accédez à la page d’accueil de **Microsoft 365 for Finance and Operations**.  
     Pour créer une clôture de période financière dans Microsoft Dynamics 365 for Finance and Operations (par exemple, une clôture de fin de mois), commencez par accéder au module **Comptabilité**.
@@ -28,7 +33,7 @@ demo:
 
 1. Dans la zone **Date de début de la période**, saisissez la date de début. Par exemple, **16/01/2021**.
 
-1. Dans la zone **Date de fin de la période**, saisissez la date de fin. Par exemple, **15/02/2021**.  
+1. Dans la zone **Date de fin de la période**, saisissez la date de fin. Par exemple, **2/15/2021**.  
     À l’aide du menu **Modèles**, sélectionnez un modèle parmi ceux précédemment créés.
 
 1. Sélectionnez la case **Modèle**.
@@ -45,7 +50,7 @@ Ensuite, sélectionnez les sociétés ou entités juridiques qui seront associé
 
 1. Dans le coin supérieur gauche du menu déroulant **Société**, sélectionnez la **coche** pour sélectionner toutes les sociétés.
 
-1. Sélectionnez **Créer**.  
+1. Sélectionnez **Create** (Créer).  
     Nous venons de créer un programme de clôture de fin de mois. Dans cet exemple, le groupe responsable de l’administration du système financier a déjà créé de nombreux éléments du programme. Le modèle Fin de mois reflète notamment les différentes zones de tâches.
 
 1. Sur la page **Configuration de clôture de période comptable**, sélectionnez l’onglet **Modèles**.
@@ -70,7 +75,7 @@ Ensuite, sélectionnez les sociétés ou entités juridiques qui seront associé
 1. Sur la page **Configuration de clôture de période comptable**, sélectionnez l’onglet **Zones des tâches**.  
     Ici, les zones de tâches générales ont déjà été définies. Ces zones n’impliquent pas de rôles de sécurité.
 
-1. Sélectionnez l’onglet **Ressources**.
+1. Sélectionnez l’onglet **Ressources** .
 
 1. Sur la page des ressources, vous pouvez consulter les employés individuellement, ainsi que les rôles de clôture qui leur sont assignés.
 

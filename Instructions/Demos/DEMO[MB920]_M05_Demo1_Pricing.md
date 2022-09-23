@@ -1,10 +1,15 @@
 ---
 demo:
-    title: 'Démonstration 1 : Tarification dans Project Operations'
-    module: 'Module 5 : Découvrir les principes de base de Microsoft Dynamics 365 Project Operations'
+  title: 'Démo 1 : Tarification dans Project Operations'
+  module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
+ms.openlocfilehash: bbe3de969557591700be5874c7c709b74d1d286a
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909471"
 ---
-
-## Démonstration 1 : Tarification dans Project Operations
+## <a name="demo-1---project-operations-pricing"></a>Démonstration 1 : Tarification dans Project Operations
 
 1. Accédez à l’espace de travail **Gestion de projets**.  
     Dans cette démonstration, nous allons paramétrer des prix de vente et de revient dans Project Operations. Nous allons également voir comment dériver les coûts et les prix d’une facture précédemment validée.
@@ -30,9 +35,9 @@ demo:
 
 1. Accédez à l’espace de travail **Gestion de projets**.
 
-1. Sur le côté droit de l’écran, dans la section **Liens**, puis dans le sous-menu **Paramétrage**, sélectionnez **Prix de vente (heure)**.
+1. Sur le côté droit de l’écran, dans la section **Liens**, puis dans le sous-menu **Paramétrage**, sélectionnez **Prix de vente (heure)** .
 
-1. Sur la page **Prix de vente (heure)**, pointez sur **350,00** dans la colonne **Tarification** du tableau.  
+1. Sur la page **Prix de vente (heure)** , pointez sur **350,00** dans la colonne **Tarification** du tableau.  
 Dans cette vue, nous pouvons voir où a été paramétré le prix de vente d’Aaron Con qui s’élève à 350 dollars.
 
 1. Pointez sur la première ligne tout entière.  
@@ -57,15 +62,15 @@ Dans cette vue, nous pouvons voir où a été paramétré le prix de vente d’A
 
 1. Accédez à l’espace de travail **Gestion de projets**.
 
-1. Sur le côté droit de l’écran, dans la section **Liens**, puis dans le sous-menu **Paramétrage**, sélectionnez **Prix de revient (heure)**.
+1. Sur le côté droit de l’écran, dans la section **Liens**, puis dans le sous-menu **Paramétrage**, sélectionnez **Prix de revient (heure)** .
 
-1. Sur la page **Vue standard du prix de revient (heure)**, dans le tableau, pointez sur la ligne indiquant **01/01/2014** dans la colonne **Date d’effet**, **CP** dans la colonne **Catégorie**, **200,00** dans la colonne **Prix de revient** et aucune valeur dans les autres colonnes.  
+1. Sur la page **Vue standard du prix de revient (heure)** , dans le tableau, pointez sur la ligne indiquant **01/01/2014** dans la colonne **Date d’effet**, **CP** dans la colonne **Catégorie**, **200,00** dans la colonne **Prix de revient** et aucune valeur dans les autres colonnes.  
     Dans cette vue, nous constatons qu’un prix de revient de 200 dollars a été paramétré pour la catégorie CP, mais aucune autre ligne n’est spécifique à Aaron ou à notre projet Contoso Consulting. Cette pratique est courante, puisque de nombreuses organisations de services choisissent d’appliquer des taux standard par catégorie, c’est-à-dire un rôle dans le projet dans le cas présent. Il s’agit souvent d’un taux moyen où le taux de salaire de la ressource individuelle n’est stocké que dans le système de paie ou de ressources humaines. Le taux de coût standard est alors ajusté périodiquement, lorsque les coûts des salaires sont analysés pour s’assurer qu’ils sont corrects et que les marges sont bien respectées.
 
     ![Capture d’écran du tableau Prix de revient (heure) où la ligne de la tarification CP est mise en surbrillance.](./media/projops_prices_5_cost_price_hour_table.png)
 
 1. Accédez à l’espace de travail **Gestion de projets**.
 
-1. Sur le côté droit de l’écran, dans la section **Liens**, puis dans le sous-menu **Paramétrage**, pointez sur **Prix de revient (heure)** et **Prix de vente (heure)**.  
+1. Sur le côté droit de l’écran, dans la section **Liens**, puis dans le sous-menu **Paramétrage**, pointez sur **Prix de revient (heure)** et **Prix de vente (heure)** .  
 
 Dans cette démonstration, nous avons découvert le paramétrage des prix de vente et de revient standard dans Project Operations. Nous avons passé en revue leur impact sur une facture validée afin de réaliser que le paramétrage de ces prix affecte directement la facture de régie présentée.
