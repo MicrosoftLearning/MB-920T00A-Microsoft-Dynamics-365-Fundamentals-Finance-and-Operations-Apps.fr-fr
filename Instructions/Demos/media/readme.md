@@ -1,1 +1,1 @@
-Supporting image files markdown docs in Instructions/Demos
+Prise en charge des fichiers image et des documents Markdown dans Instructions/Demos
