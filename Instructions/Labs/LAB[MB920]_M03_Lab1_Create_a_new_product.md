@@ -1,14 +1,9 @@
 ---
 lab:
-  title: 'Labo 1 : Créer un nouveau produit'
+  title: "Labo\_1\_: Créer un nouveau produit"
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: e8fad0a9ddf0787c57ee7b98ddc6ef8363832ffc
-ms.sourcegitcommit: 178a1e5d74c3902b0514276a3daf4a24c0c4ade7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "147444366"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Module 3 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
 
 ## <a name="lab-1---create-a-new-product"></a>Labo 1 : Créer un produit
@@ -29,25 +24,25 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 1. En haut à gauche, sélectionnez le menu hamburger **Développer le volet de navigation**.
 
-1. Dans le volet de navigation, sélectionnez **Modules** > **Gestion des informations sur les produits**, puis sous la catégorie **Produits**, **Produits lancés**.
+1. Dans le volet de navigation, sélectionnez **Modules** > **Gestion des informations sur les produits,**  puis, sous la catégorie **Produits**, sélectionnez **Produits lancés**.
 
-1. Sur la page Détails des produits lancés, dans le menu du haut, sélectionnez **+ Nouveau**.
+1. Sur la page Détails des produits lancés, dans le menu du haut, sélectionnez  **+ Nouveau**.
 
-1. Dans le volet Nouveau produit lancé, dans le menu **Type de produit**, vérifiez qu’**Article** est sélectionné.
+1. Dans le volet Nouveau produit lancé, dans le menu  **Type de produit**, vérifiez qu’**Article** est sélectionné.
 
-1. Dans le menu **Sous-type de produit**, vérifiez que **Produit** est sélectionné.
+1. Dans le menu  **Sous-type de produit**, vérifiez que **Produit** est sélectionné.
 
-1. Dans le menu **Groupe de dimension de suivi**, puis sélectionnez **Aucun**.
+1. Dans le menu  **Groupe de dimension de suivi**, sélectionnez  **Aucun**.
 
-1. Sous **IDENTIFICATION**, dans les zones **Numéro de produit** et **Numéro d’article**, saisissez **GTL007**.
+1. Sous **IDENTIFICATION**, dans les zones  **Numéro de produit** et **Numéro d’article**, saisissez  **GTL007**.
 
-1. Dans la zone **Nom du produit**, saisissez **Armoire 2**.
+1. Dans la zone  **Nom du produit** , entrez  **Cabinet 2**.
 
-1. Sous **GROUPES DE RÉFÉRENCE**, sélectionnez le menu **Groupe de modèles d’article**, puis sélectionnez **FIFO premier entré, premier sorti**.
+1. Sous **GROUPES DE RÉFÉRENCE**, sélectionnez le menu **Groupe de modèles d’éléments**, puis sélectionnez **FIFO premier entré, premier sorti**.
 
-1. Dans le menu **Groupe d’articles**, sélectionnez **TV et vidéo**.
+1. Sélectionnez le menu **Groupe d’éléments**, puis sélectionnez **TV et vidéo**.
 
-1. Dans le menu **Groupe de dimension de stockage**, puis sélectionnez **SiteWH**.
+1. Dans le menu **Groupe de dimension de stockage**, sélectionnez **Aucun**.
 
 1. Sous **UNITÉS DE MESURES**, vérifiez que les valeurs suivantes sont définies :
 
@@ -58,9 +53,9 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
     | Unité de vente| ea Chaque|
     | Unité de nomenclature| ea Chaque|
 
-1. Sous **IMPOSITION SUR LES VENTES**, sélectionnez le menu **Groupe de taxe d’article**, puis sélectionnez **TOUT**.
+1. Sous **IMPOSITION SUR LES VENTES**, sélectionnez le menu **Groupe de taxe d’article**, puis sélectionnez **TOUT**.
 
-1. Sous **IMPOSITION SUR LES ACHATS**, sélectionnez le menu **Groupe de taxe d’article**, puis sélectionnez **TOUT**.
+1. Sous **IMPOSITION SUR LES ACHATS**, sélectionnez le menu **Groupe de taxe d’article**, puis sélectionnez **TOUT**.
 
 1. Sous PRIX, dans le champ Prix d’achat, saisissez 30,00.
 
@@ -70,7 +65,7 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
     ![Image d’écran affichant le formulaire de nouvelle version du produit complété](./media/lp1-m2-new-release-product.png)
 
-1. Sélectionnez **OK**.
+1. Sélectionnez **OK**.
 
 1. Pour vous assurer que le produit est finalisé, dans la barre de ruban, sous **Mettre à jour**, sélectionnez **Valider**.
 
