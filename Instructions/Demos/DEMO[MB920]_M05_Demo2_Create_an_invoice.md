@@ -7,10 +7,10 @@ demo:
 ## <a name="demo-2---create-an-invoice"></a>Démonstration 2 : Créer une facture
 
 1. Accédez à l’espace de travail  **Gestion de projets**.  
-    In this demo, we'll go over the process of invoicing a single project within project operations. Although it's possible to perform mass invoicing, for demonstration purposes we will focus on just a single time and material project. We'll also see the posting results and financial insights within the project statement. Let's start with project invoicing. 
+    Dans cette démonstration, nous allons couvrir le processus de facturation d’un projet unique au sein de Project Operations. Bien que la facturation de masse soit proposée, nous allons nous concentrer sur un seul projet en régie pour les besoins de cette démonstration.Nous aborderons également la validation des résultats et les informations financières présentes sur le relevé de projet. Commençons par la facturation du projet. 
 
-1. In the top-right company picker, verify the legal entity you are connected to is<bpt id="p1"> **</bpt>USSI<ept id="p1">**</ept>. If it's not, change the legal entity to<bpt id="p1"> **</bpt>USSI<ept id="p1">**</ept>.  
-    From the<bpt id="p1"> **</bpt>Project management<ept id="p1">**</ept> workspace, we can see all the active projects. We can search for projects using the filter, or in this example, we will select a known Project ID. 
+1. Dans le sélecteur de société situé dans l’angle supérieur droit, vérifiez que vous êtes bien connecté à l’entité juridique  **USSI**. Si tel n’est pas le cas, sélectionnez l’entité juridique  **USSI**.  
+    Depuis l’espace de travail  **Gestion de projets**, nous voyons tous les projets actifs.Nous pouvons effectuer une recherche à l’aide du filtre ou, comme dans cet exemple, sélectionner un ID projet connu. 
 
 1. Dans le tableau  **Projets actifs**, dans la colonne **ID du projet**, sélectionnez **00000093 Contoso Consulting**.  
 
@@ -24,7 +24,7 @@ demo:
     ![Capture d’écran de la page Propositions de facture du projet où la nouvelle proposition de facture est mise en surbrillance](./media/projops_invoice_1_new_invoice_proposal.png)
 
 1. Dans le volet **Créer une proposition de facture**,  pointez sur les zones sous **Sélectionner les transactions**.  
-    From here, we can select things such as the invoicing method, the invoice date, the funding source, and the project. We can also choose to include sub projects, as well as incorporate transaction types, the start and end dates for transactions, and any financial dimensions we need. 
+    Ici, nous pouvons sélectionner divers éléments, tels que la méthode de facturation, la date de facture, la source de financement et le projet.Nous pouvons également choisir d’inclure des sous-projets, comme incorporer les types de transaction, les dates de début et de fin pour les transactions ou toutes dimensions financières nécessaires. 
 
     ![Capture d’écran du volet Créer une proposition de facture où la section de sélection des transactions est mise en surbrillance](./media/projops_invoice_2_select_transactions.png)
 
@@ -34,7 +34,7 @@ demo:
     Une fois les sélections effectuées, sélectionnez le bouton de recherche pour afficher les transactions répondant à ces critères.
 
 1. Sélectionnez **Recherche**.  
-    Dans cette démonstration, nous allons couvrir le processus de facturation d’un projet unique au sein de Project Operations.
+    Ensuite, sélectionnez l’option Sélectionner tout pour facturer toutes les transactions. Cela permet d’inclure les éléments que nous avons sélectionnés pour les dépenses et les heures.
 
 1. Sous l’onglet **Transactions de projet**, sélectionnez **Sélectionner tout**.
 
@@ -57,7 +57,7 @@ Ensuite, intéressons-nous au bouton des totaux pour étudier la facture du poin
     Sur l’écran des totaux, nous pouvons constater l’impact sur la comptabilité générale, sur les informations client (par exemple, les limites de crédit, les remises ou les taxes de vente), ainsi que sur le net de la facture. 
 
 1. Sur le côté droit de l’écran, sélectionnez le **X** pour fermer la page.  
-    Bien que la facturation de masse soit proposée, nous allons nous concentrer sur un seul projet en régie pour les besoins de cette démonstration. 
+    À présent, nous sommes prêts à créer un aperçu avant impression pour nous assurer que toutes les informations de facturation sont correctes. Certaines organisations utilisent cet aperçu pendant les réunions pour passer en revue le projet et s’assurer que tout le monde approuve les totaux avant de finaliser la facture. 
 
 1. Sur la page **Proposition de facture**, dans la barre de navigation, sélectionnez **Aperçu avant impression**. 
 
@@ -90,7 +90,7 @@ Ensuite, intéressons-nous au bouton des totaux pour étudier la facture du poin
 1. Sur la page **Journal des factures**, dans la barre d’action, sélectionnez **Pièce justificative**.
 
 1. Sur la page **Pièces comptables**, pointez sur la colonne **Compte général**.  
-    Nous aborderons également la validation des résultats et les informations financières présentes sur le relevé de projet.
+    Voici les résultats validés dans la comptabilité générale. Les comptes généraux sont déterminés en fonction du paramétrage de compte et des dimensions financières appliquées à chaque projet.
 
 1. Accédez à l’espace de travail **Gestion de projets**.  
 
@@ -114,4 +114,4 @@ Vous pouvez créer un relevé pour la période de votre choix.
     ![Capture d’écran de la page Statistiques de projet où l’option Calculer est mise en surbrillance](./media/projops_invoice_4_calculate.png)
 
 1. Pointez sur **Transactions**.  
-    Commençons par la facturation du projet.
+    Une fois les données actualisées, le chef de projets peut choisir de consulter les détails transactionnels pour prendre des décisions relatives au projet ou d’apporter les modifications nécessaires.Dans cette démonstration, nous avons traité une facture de régie avec une transaction horaire et de dépense. Nous avons vérifié et validé la facture dans l’aperçu, passé en revue la validation de la comptabilité et remarqué l’impact financier sur le relevé de ce projet.
