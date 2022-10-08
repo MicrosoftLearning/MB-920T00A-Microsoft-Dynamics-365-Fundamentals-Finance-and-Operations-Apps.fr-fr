@@ -28,7 +28,7 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 1. Sélectionnez la zone **Date effective**, puis sélectionnez une date dans le futur.
 
-1. In the <bpt id="p1">**</bpt>Assortment name<ept id="p1">**</ept> box, enter a name for the new assortment. For example, <bpt id="p1">**</bpt>New Spring Season<ept id="p1">**</ept>.
+1. Dans le champ **Nom de l’assortiment**, saisissez un nom. Par exemple, **Nouvelle saison de printemps**.
 
 1. Définissez **Date d’expiration** sur **Jamais**.
 
@@ -55,7 +55,7 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 1. Cela ajoute tous les articles enfants de la catégorie parent.
 
-1. Review the last column named <bpt id="p1">**</bpt>Line type<ept id="p1">**</ept>. By default, all items will be included.
+1. Passez en revue la dernière colonne nommée **Type ligne**. Par défaut, tous les articles sont inclus.
 
 1. Sélectionnez **+ Ajouter une ligne**, sélectionnez le menu **Catégorie**, développez **Sports d’équipe (sports d’équipe)** , sélectionnez **Baseball**, puis cliquez sur **OK**.
 
@@ -63,7 +63,7 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 1. À l’aide de la ligne de catégorie Baseball, sélectionnez le menu **Produits**.
 
-1. When products within a category are defined, you can select a specific product to include or exclude. Select <bpt id="p1">**</bpt>AdultBaseballInfield<ept id="p1">**</ept>.
+1. Lorsque les produits d’une catégorie sont définis, vous pouvez sélectionner un produit spécifique à inclure ou à exclure. Sélectionnez **AdultBaseballInfield**.
 
 1. Pour supprimer un produit ajouté, supprimez le contenu de la boîte du produit, puis appuyez sur la touche de tabulation de votre clavier ou sélectionnez une autre zone de la page.
 

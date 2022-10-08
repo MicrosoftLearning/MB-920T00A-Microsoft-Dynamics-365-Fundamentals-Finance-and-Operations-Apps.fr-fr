@@ -8,7 +8,7 @@ lab:
 
 ## <a name="objectives"></a>Objectifs
 
-The production order contains information about what will be produced, the quantity to produce, and the planned finish date. It also contains information about which materials to consume and which process to follow to produce the item.
+L’ordre de fabrication contient des informations sur ce qui doit être produit, la quantité et la date de fin prévue. Il contient également des informations sur les matériaux à utiliser et sur les processus à mettre en œuvre pour produire l’article.
 
 Vous devez créer un ordre de fabrication pour votre entreprise.
 
@@ -29,11 +29,11 @@ Vous devez créer un ordre de fabrication pour votre entreprise.
 1. Sous **IDENTIFICATION**, dans la zone **Numéro d’article**, saisissez **D0001**, puis sélectionnez l’article identifié.
 
 1. Sous **PRODUCTION**, dans la zone **Livraison**, sélectionnez une date ultérieure d’un mois à la date du jour.  
-    The delivery date indicates when the production order should end in order to deliver on time. This date can be used in the scheduling process. For example, you can schedule the order backward from the delivery date.
+    La date de livraison indique quand l’ordre de fabrication doit prendre fin pour une livraison dans les temps. Cette date peut être utilisée dans le processus de planification. Par exemple, vous pouvez planifier la commande à rebours à partir de la date de livraison.
 
 1. Dans le champ **Quantité**, entrez **20**.
 
-1. Under <bpt id="p1">**</bpt>BOM/ROUTE<ept id="p1">**</ept>, the BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions. The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.
+1. Sous **NOMENCLATURE/GAMME**, le champ Numéro de nomenclature affiche automatiquement le numéro de toute nomenclature active pour l’élément actuel, mais vous pouvez modifier la nomenclature de l’ordre de fabrication en sélectionnant une nomenclature active dans la liste des versions de nomenclature approuvées. Le champ Numéro de gamme affiche automatiquement le numéro de toute gamme active pour l’élément actuel, mais vous pouvez modifier la gamme de l’ordre de fabrication en sélectionnant une gamme active dans la liste des versions de gamme approuvées.
 
     ![Capture d’écran montrant le volet Créer un ordre de fabrication complet](./media/lp1-m4-new-production-order-pane.png)
 
