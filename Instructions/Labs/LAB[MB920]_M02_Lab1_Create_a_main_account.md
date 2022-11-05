@@ -31,3 +31,5 @@ lab:
     - DB/CR par défaut : **Débit**
 
  ![Capture d’écran de Comptes principaux – Plan comptable : Page partagée avec les champs de l’étape 5 remplis](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6. Cliquez sur **Enregistrer**.

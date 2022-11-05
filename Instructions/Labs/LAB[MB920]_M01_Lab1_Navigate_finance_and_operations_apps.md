@@ -34,7 +34,7 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
         pass@word1
 
-    >[!Note] Il est possible qu’Internet Explorer s’ouvre automatiquement sur le Bureau. Si vous n’avez pas encore terminé les étapes 2 à 5, terminez-les avant de retourner sur Internet Explorer.
+    >[!Note] Il est possible que Microsoft Edge s’ouvre automatiquement sur le Bureau. Si vous n’avez pas encore effectué les étapes 2 à 5, terminez-les avant de retourner sur Microsoft Edge.
 
 1. Sélectionnez le fichier **AdminUserProvisioning** sur le Bureau.
 
@@ -45,7 +45,7 @@ Vous trouverez vos identifiants dans le menu **Ressources** situé dans le coin 
 
 1. Sélectionnez **OK** pour continuer.
 
-1. Ouvrez **Internet Explorer**.
+1. Ouvrez **Microsoft Edge**.
 
 1. Rendez-vous à l’adresse fournie : <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
