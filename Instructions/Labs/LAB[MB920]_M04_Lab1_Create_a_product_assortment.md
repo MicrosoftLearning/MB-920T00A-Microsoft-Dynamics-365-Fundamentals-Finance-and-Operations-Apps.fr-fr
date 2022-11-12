@@ -20,17 +20,13 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 1. Dans le volet de navigation, sélectionnez **Commerce et vente au détail** > **Catalogues et assortiments** > **Assortiments**.
 
-1. Attendez la fin du chargement de la page.
-
 1. Sur la page Assortiments, sélectionnez **+ Nouveau**.
 
-1. Dans le volet Nouvel enregistrement, développez **Général**.
+1. Dans le volet Nouvel enregistrement, développez **Général** si nécessaire.
 
 1. Sélectionnez la zone **Date effective**, puis sélectionnez une date dans le futur.
 
 1. Dans le champ **Nom de l’assortiment**, saisissez un nom. Par exemple, **Nouvelle saison de printemps**.
-
-1. Définissez **Date d’expiration** sur **Jamais**.
 
 1. La date d’expiration peut être utilisée pour désactiver automatiquement un assortiment publié.
 
