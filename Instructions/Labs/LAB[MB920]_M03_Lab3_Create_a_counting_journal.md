@@ -16,15 +16,15 @@ lab:
 
 4. Le formulaire du journal d’inventaire de stock s’affiche avec des informations d’en-tête et des détails.
 
-![Capture d’écran du formulaire du journal d’inventaire de stock avec des informations d’en-tête et des détails renseignés.](../media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
+    ![Capture d’écran du formulaire du journal d’inventaire de stock avec des informations d’en-tête et des détails renseignés.](./media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
 
-5. Sélectionnez **Créer des lignes -&gt; En ligne** dans le volet Action.
+5. Sélectionnez **Créer des lignes -&gt; Disponible** dans le volet Actions.
 
-6. Dans le volet de la boîte de dialogue **Créer un journal d’inventaire disponible**, définissez les champs **Entrepôt**, **État du stock**, Emplacement et **Contenant** sur **Oui**. 
+6. Dans le volet de la boîte de dialogue **Créer un journal d’inventaire disponible**, définissez les champs **Entrepôt**, **État du stock**, **Emplacement** et **Contenant** sur **Oui**. 
 
-![Capture d’écran du volet de la boîte de dialogue Créer un journal d’inventaire disponible avec les champs définis comme décrit.](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
+    ![Capture d’écran du volet de la boîte de dialogue Créer un journal d’inventaire disponible avec les champs définis comme décrit.](./media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. Développez la section **Enregistrement à inclure** et sélectionnez le lien **Filtre**. Dans le champ **Numéro d’article**, sélectionnez **A0001**, puis **OK**.
+7. Développez la section **Enregistrements à inclure** et sélectionnez le lien **Filtre**. Pour le champ **Numéro d’article** , tapez **A0001** dans les critères, puis sélectionnez **OK**.
 
 8. Sélectionnez **OK** au bas du formulaire de la boîte de dialogue **Créer un journal d’inventaire disponible**.
 

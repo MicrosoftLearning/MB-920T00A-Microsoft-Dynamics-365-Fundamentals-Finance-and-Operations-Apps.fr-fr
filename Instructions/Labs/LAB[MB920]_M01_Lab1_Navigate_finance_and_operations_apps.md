@@ -34,29 +34,18 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
         pass@word1
 
-    >[!Note] Il est possible que Microsoft Edge s’ouvre automatiquement sur le Bureau. Si vous n’avez pas encore effectué les étapes 2 à 5, terminez-les avant de retourner sur Microsoft Edge.
+1. Attendez la fin du script AdminUserProvisioning avant de continuer. Cette opération peut prendre 2 à 3 minutes. Une fois le script terminé, une zone contextuelle s’affiche brièvement pour confirmer la mise à jour de l’utilisateur administrateur.
 
-1. Sélectionnez le fichier **AdminUserProvisioning** sur le Bureau.
+1. **Microsoft Edge** ouvre l’URL Finance & Operations : <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
-1. Saisissez les identifiants fournis et sélectionnez **Envoyer**.  
-Vous trouverez vos identifiants dans le menu **Ressources** situé dans le coin supérieur droit de l’écran.
-
-1. Attendez la fin du script avant de continuer. Cette opération peut prendre 2 à 3 minutes. Une fois le script terminé, une zone contextuelle s’affiche pour confirmer la mise à jour de l’utilisateur administrateur.
-
-1. Sélectionnez **OK** pour continuer.
-
-1. Ouvrez **Microsoft Edge**.
-
-1. Rendez-vous à l’adresse fournie : <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
-
-1. Connectez-vous à l’aide des identifiants fournis dans le menu **Ressources**.
+1. Connectez-vous à l’aide du nom d’utilisateur et du mot de passe fournis dans le menu **Ressources**.
 
 ### <a name="navigate-finance-and-operations-apps"></a>Parcourir les applications Finance and Operations
-1. Si elle est configurée, la page d’accueil de Finance and Operations affiche les éléments suivants :
+1. La page d’accueil de Finance and Operations affiche les éléments suivants :
 
     - Le menu de navigation à gauche, qui est réduit par défaut
 
-    - Le logo de votre société
+    - Image de la bannière de votre entreprise.
 
     - Les vignettes d’espace de travail à votre disposition en fonction de votre rôle dans l’organisation
 
@@ -119,10 +108,14 @@ Vous trouverez vos identifiants dans le menu **Ressources** situé dans le coin 
 
 1. En haut à droite, notez les fonctionnalités supplémentaires. Déplacez votre souris sur chaque élément et examinez la légende de la fonctionnalité. Ensuite, cliquez sur l’icône **Fermer** pour fermer la page et revenir à la page d’accueil.
 
-    ![Menu supérieur droit de la page de liste affichant des fonctionnalités supplémentaires qui permettent de se connecter à PowerApps, aux applications Office, d’actualiser la page, d’ouvrir une nouvelle fenêtre et de fermer](./media/m1-common-list-page-additional-features-menu.png)
+    ![Menu supérieur droit de la page de liste affichant des fonctionnalités supplémentaires qui permettent de se connecter à PowerApps, aux applications Office, aux pièces jointes, d’actualiser la page, d’ouvrir une nouvelle fenêtre et de fermer](./media/m1-common-list-page-additional-features-menu.png)
 
 1. En haut à droite, cliquez sur l’icône d’**Aide** en forme de point d’interrogation, puis sélectionnez **Aide**.
 
 1. Notez que les informations d’aide concernent la page active.
 
-1. Tentez de cliquer sur une vignette d’espace de travail, puis consultez les informations d’aide sur l’espace de travail concerné. Ensuite, revenez à la page d’accueil.
+1. Revenez au **tableau de bord par défaut** à l’aide du lien « Finance and Operations » en haut à gauche ou de l’icône Accueil dans le menu de navigation de gauche.
+
+>[!Note] Raccourci clavier : Alt+Maj+Accueil, Finance and Operations prend en charge de nombreux raccourcis clavier pour accélérer l’accès au système : https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
+
+1. Essayez de sélectionner une autre **vignette d’espace de travail**, puis consultez les informations d’aide sur l’espace de travail concerné. Lorsque vous avez terminé, revenez au tableau de bord par défaut.
