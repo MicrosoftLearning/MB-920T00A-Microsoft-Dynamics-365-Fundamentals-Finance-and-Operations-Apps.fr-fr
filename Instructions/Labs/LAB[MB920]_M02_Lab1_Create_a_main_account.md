@@ -24,7 +24,7 @@ lab:
 
     - Nom : **Frais d’appels internationaux**
 
-    - Type de dépense principal : **Dépenses**
+    - Type de compte principal : **Dépenses**
 
     - Catégorie de compte principal : **TANDEEXP**
 
