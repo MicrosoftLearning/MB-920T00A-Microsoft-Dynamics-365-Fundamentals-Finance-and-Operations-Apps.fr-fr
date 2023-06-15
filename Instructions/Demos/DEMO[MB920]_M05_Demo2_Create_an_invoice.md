@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-2---create-an-invoice"></a>Démonstration 2 : Créer une facture
+## Démonstration 2 : Créer une facture
 
 1. Accédez à l’espace de travail  **Gestion de projets**.  
     Dans cette démonstration, nous allons couvrir le processus de facturation d’un projet unique au sein de Project Operations. Bien que la facturation de masse soit proposée, nous allons nous concentrer sur un seul projet en régie pour les besoins de cette démonstration.Nous aborderons également la validation des résultats et les informations financières présentes sur le relevé de projet. Commençons par la facturation du projet. 
