@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-1---project-operations-pricing"></a>Démonstration 1 : Tarification dans Project Operations
+## Démonstration 1 : Tarification dans Project Operations
 
 1. Accédez à l’espace de travail **Gestion de projets**.  
     Dans cette démonstration, nous allons paramétrer des prix de vente et de revient dans Project Operations. Nous allons également voir comment dériver les coûts et les prix d’une facture précédemment validée.

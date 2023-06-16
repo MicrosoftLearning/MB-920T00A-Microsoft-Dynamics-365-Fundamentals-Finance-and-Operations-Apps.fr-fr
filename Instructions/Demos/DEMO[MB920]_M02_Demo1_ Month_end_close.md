@@ -4,7 +4,7 @@ demo:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="demo-1---month-end-close"></a>Démonstration 1 : Clôture de fin de mois
+## Démonstration 1 : Clôture de fin de mois
 
 1. Accédez à la page d’accueil de **Microsoft 365 for Finance and Operations**.  
     Pour créer une clôture de période financière dans Microsoft Dynamics 365 for Finance and Operations (par exemple, une clôture de fin de mois), commencez par accéder au module **Comptabilité**.
