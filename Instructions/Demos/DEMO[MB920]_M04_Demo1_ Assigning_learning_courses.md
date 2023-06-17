@@ -4,7 +4,7 @@ demo:
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
 ---
 
-## <a name="demo-1---assigning-learning-courses"></a>Démonstration 1 : Affectation des cours de formation
+## Démonstration 1 : Affectation des cours de formation
 
 1. Accédez à la page d’accueil de **Microsoft Dynamics 365 Human Resources**.  
     Dans Microsoft Dynamics 365 Human Resources, les responsables de la gestion du personnel peuvent affecter des cours de formation aux employés. Dans cet exemple, Alicia vient de rejoindre la société et doit suivre la formation disponible aux employés pendant leurs trente premiers jours.
