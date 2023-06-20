@@ -4,30 +4,39 @@ lab:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="lab-2---create-a-free-text-invoice"></a>Labo 2 : Créer une facture financière
+# Module 2 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Finance
 
-## <a name="instructions"></a>Instructions
+## Labo 2 : Créer une facture financière
 
-1. Dans la page **Accueil Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société USMF.
+## Mise en place du labo
 
-2. Si nécessaire, sélectionnez la société, puis, dans le menu, sélectionnez **USMF**.
+   - **Durée estimée** : 5 minutes
 
-3. Dans le volet de navigation gauche, sélectionnez **Modules** > **Comptabilité client** > **Factures** > **Toutes les factures financières**.
+## Instructions
 
-4. Dans le menu en haut sélectionnez **+ Nouveau**.
+1.  Dans la page d’accueil **Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. 
 
-5. Dans le champ **Compte client**, sélectionnez **US-001**.
+2.  Si nécessaire, sélectionnez la société, puis, dans le menu, sélectionnez **USMF**. 
 
-6. Accédez à la ligne de facture et sélectionnez **601510** dans le compte **Principal**.
+3.  Dans le volet de navigation de gauche, dans le module **Comptabilité client**, sélectionnez **Factures** > **Toutes les factures financières**. 
 
-Les champs Groupe de taxes et Groupe de taxe d’article doivent se mettre automatiquement à jour avec l’autorité de certification et AU/VI respectivement.
+4.  Sélectionnez **+ Nouveau** dans le volet Actions. 
 
-7. Dans le champ **Quantité**, entrez **10**.
+5.  Dans le champ **CLIENT > Compte client**, sélectionnez ou entrez `US-001`
 
-8. Dans le champ **Unité**, entrez **1,2**.
+6.  Remplacez l’année dans le champ **FACTURE > Date** par 2022. Vérifiez que la date d’**échéance** est mise à jour et reportée à 10 jours, également en 2022. 
 
-9. Dans le menu **Action de comptabilité**, sélectionnez **Afficher les distributions**. 
+7.  Accédez aux **lignes de facture** et sélectionnez ou entrez `601510` dans le champ **Compte principal**. 
 
-10. Fermez la page Afficher la distribution.
+8.  Vérifiez que les champs **Groupe de taxe** et **Groupe de taxe d’article** sont automatiquement remplis avec **CA** et **AU/VI** respectivement. 
 
-11. Sélectionnez **Action de publication** dans le menu pour publier la facture financière.
+9.  Entrez `10` dans le champ **Quantité**. 
+
+10. Entrez `1.2` dans le champ **Prix unitaire**. 
+
+11.  Sélectionnez l’onglet **Comptabilité** dans le volet Actions puis, sous **Comptabilité**, sélectionnez **Afficher les distributions**. Passez en revue les distributions. 
+
+12. **Fermez** la page Afficher la distribution. 
+
+13. Sélectionnez le bouton **Valider** dans le volet Actions, puis sélectionnez **OK** dans la boîte de dialogue. 
+

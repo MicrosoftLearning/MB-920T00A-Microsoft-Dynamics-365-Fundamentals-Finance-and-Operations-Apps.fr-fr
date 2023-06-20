@@ -4,35 +4,37 @@ lab:
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
 
-# <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Module 1 : Explorer les fonctionnalités principales des applications de finances et d’opérations Dynamics 365
+# Module 1 : Explorer les fonctionnalités principales des applications de finances et d’opérations Dynamics 365
 
-## <a name="lab-2---excel-integration"></a>Labo 2 : Intégration d’Excel
+## Labo 2 : Intégration à Excel
 
-## <a name="objective"></a>Objectif
+## Objectif
 
-Dans ce labo, vous allez apprendre à copier des données Finance and Operations dans Excel avec l’application complémentaire de bureau Dynamics. Vous découvrirez aussi comment la même application peut être utilisée pour insérer des données dans des applications Finance and Operations.
+Dans ce labo, vous allez apprendre à copier des données de Finance and Operations dans Excel à l’aide de l’application complémentaire Office Connecteur de données Dynamics. Vous découvrirez aussi comment utiliser cette même application pour insérer des données dans Dynamics 365 Finance and Operations. 
 
-## <a name="lab-steps"></a>Étapes de l’exercice
+## Mise en place du labo
 
-Maintenant que vous vous êtes familiarisé avec les applications Finance and Operations, prenez le temps d’explorer le scénario d’intégration d’Excel.
+   - **Durée estimée** : 5 minutes
 
-1. Vérifier que vous êtes dans l’entité juridique USMF 
+## Instructions
 
-2. Accédez à **Approvisionnements** > **Configuration** > **Fournisseurs** > **Groupes de fournisseurs**.
+Maintenant que vous vous êtes familiarisé avec les applications  de finances et d'opérations, prenez le temps d’explorer le scénario d’intégration d’Excel. 
 
-3. Sélectionnez **Ouvrir dans Microsoft Office** > **Ouvrir dans Excel**.
+1.  Dans la page d’accueil **Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. 
 
-4. Sélectionnez **Groupes de fournisseurs** (usmf) et téléchargez le modèle Excel.
+2.  Accédez à **Approvisionnements** > **Configuration** > **Fournisseurs** > **Groupes de fournisseurs**.
 
-5. Enregistrez, puis ouvrez le modèle Excel téléchargé, autorisez-le si nécessaire, fermez l’activation, puis sélectionnez **Activer la modification**. Approuvez ce complément, puis connectez-vous (avec vos mêmes informations d’identification, si vous y êtes invité).
+3.  Dans le volet Actions, sélectionnez **Ouvrir dans Microsoft Office** puis, sous **Ouvrir dans Excel**, sélectionnez **Groupes de fournisseurs (usmf)** .
 
-    Toutes les données existantes dans le tableau des groupes de fournisseurs s’affichent dans la feuille de calcul Excel.
+4.  Dans le volet **Ouvrir dans Excel**, sélectionnez **Télécharger**. 
 
-6.  Entrez un nouvel enregistrement.
+5.  Le fichier modèle Excel est alors téléchargé et enregistré. **Ouvrez** le fichier modèle Excel téléchargé, ignorez ou autorisez les autres invites de sécurité standard si nécessaire, fermez l’activation, puis sélectionnez **Activer la modification**. Sélectionnez **Approuver ce complément**, puis connectez-vous (avec les mêmes informations d’identification, si vous y êtes invité). 
 
-7. Entrez **100** dans le champ **Groupe de fournisseurs**, **Courtier en assurances** dans le champ **Description** et **Net10** dans le champ **Conditions de paiement**.
+    Une fois la connexion établie, l’application Connecteur de données actualise les données existantes du tableau **Groupe de fournisseurs**, et celles-ci s’affichent dans la feuille de calcul Excel. 
 
-8. Sélectionnez le bouton **Publier** dans l’application Complément Microsoft Dynamics Office.
+6.  Pour créer un enregistrement, entrez `100` dans le champ **Groupe de fournisseurs**, `Insurance vendor` dans le champ **Description**, puis `Net10` dans le champ **Conditions de paiement**. 
 
-9. Ouvrez le formulaire **Groupe de fournisseurs** pour vérifier que le nouvel enregistrement est ajouté.
+7.  Sélectionnez le bouton **Publier** dans le volet Office Connecteur de données Microsoft Dynamics. 
+
+8.  Actualisez la liste **Groupes de fournisseurs** dans Dynamics 365 Finance and Operations pour vérifier que le nouvel enregistrement a bien été ajouté. 
 
