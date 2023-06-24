@@ -3,33 +3,38 @@ lab:
   title: "Labo\_1\_: Créer un compte principal"
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
-    
-# <a name="module-2-learn-the-fundamentals-of-microsoft-dynamics-365-finance"></a>Module 2 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Finance
-    
-## <a name="lab-1---create-a-main-account"></a>Labo 1 : Créer un compte principal
 
-## <a name="instructions"></a>Instructions
+# Module 2 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Finance
 
-1. Dans la page **Accueil Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société USMF.
+## Labo 1 : Créer un compte principal
 
-2. Si nécessaire, sélectionnez la société, puis, dans le menu, sélectionnez **USMF**.
+## Mise en place du labo
 
-3. Dans le volet de navigation gauche, sélectionnez **Modules** > **Comptabilité** > **Plan comptable** > **Comptes** > **Comptes principaux**.
+   - **Durée estimée** : 5 minutes
 
-4. Dans le menu en haut sélectionnez **+ Nouveau**.
+## Instructions
 
-5. Entrez les valeurs suivantes dans la page du compte principal :
+1.  Dans la page d’accueil **Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. 
 
-    - Compte principal : **601510**
+2.  Si nécessaire, sélectionnez le sélecteur de société et choisissez **USMF**. 
 
-    - Nom : **Frais d’appels internationaux**
+3.  Dans le volet de navigation de gauche, dans le module **Comptabilité**, sélectionnez **Plan comptable** > **Comptes** > **Comptes principaux**.
 
-    - Type de compte principal : **Dépenses**
+4.  Sélectionnez **+ Nouveau** dans le volet Actions.
 
-    - Catégorie de compte principal : **TANDEEXP**
+5.  Entrez les valeurs suivantes dans la page **Compte principal** : 
 
-    - DB/CR par défaut : **Débit**
+    - Compte principal : `601510`
 
- ![Capture d’écran de Comptes principaux – Plan comptable : Page partagée avec les champs de l’étape 5 remplis](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+    - Nom : `International call expense`
 
-6. Cliquez sur **Enregistrer**.
+    - Type de compte principal : `Expense`
+
+    - Catégorie de compte principal : `TANDEEXP`
+
+    - DB/CR par défaut : `Debit`
+
+    ![Capture d’écran de Comptes principaux – Plan comptable : Page partagée avec les champs de l’étape 5 remplis](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6.  Sélectionnez **Enregistrer** et **fermez** la page. 
+

@@ -4,69 +4,71 @@ lab:
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
 ---
 
-## <a name="lab-1---create-a-product-assortment"></a>Labo 1 : Créer un assortiment de produits
+# Module 4 : Découvrir les principes de base de Microsoft Dynamics 365 Commerce
 
-## <a name="objectives"></a>Objectifs
+## Labo 1 : Créer un assortiment de produits
 
-Vous devez créer un assortiment de produits associés qui sont affectés à un canal commercial spécifique qui sera mis à disposition à une date ultérieure.
+## Objectif
 
-## <a name="lab-setup"></a>Mise en place du labo
+Vous devez créer un assortiment de produits associés qui sont affectés à un canal commercial spécifique qui sera mis à disposition à une date ultérieure. 
+
+## Mise en place du labo
 
    - **Durée estimée** : 10 minutes
 
-## <a name="instructions"></a>Instructions
+## Instructions
 
-1. Sur la page Finance and Operations, en haut à gauche, sélectionnez le menu hamburger **Développer le volet de navigation**.
+1.  Dans la page d’accueil **Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. 
 
-1. Dans le volet de navigation, sélectionnez **Commerce et vente au détail** > **Catalogues et assortiments** > **Assortiments**.
+1.  Si nécessaire, sélectionnez la société, puis, dans le menu, **USMF**. 
 
-1. Sur la page Assortiments, sélectionnez **+ Nouveau**.
+1.  Dans le volet de navigation de gauche, dans le module **Commerce et vente au détail**, sélectionnez **Catalogues et assortiments** > **Assortiments**. 
 
-1. Dans le volet Nouvel enregistrement, développez **Général** si nécessaire.
+1.  Dans la page **Assortiments**, sélectionnez **+ Nouveau**. 
 
-1. Sélectionnez la zone **Date effective**, puis sélectionnez une date dans le futur.
+1.  Dans le formulaire **Nouvel enregistrement**, si nécessaire, développez le raccourci **Général**. 
 
-1. Dans le champ **Nom de l’assortiment**, saisissez un nom. Par exemple, **Nouvelle saison de printemps**.
+1.  Sélectionnez le champ **Date d’effet**, puis sélectionnez une date future.  
 
-1. La date d’expiration peut être utilisée pour désactiver automatiquement un assortiment publié.
+1.  Dans le champ **Nom de l’assortiment**, attribuez un nom au nouvel assortiment. Par exemple : `New Spring Season`
 
-1. Développez **Canaux Commerce**.
+    > **Remarque :** La **date d’expiration** peut être utilisée pour désactiver automatiquement un assortiment publié. 
 
-1. Dans le menu des canaux de commerce, sélectionnez **+ Ajouter une ligne**.
+1.  Développez le raccourci **Canaux de commerce**. 
 
-1. Dans Choisir des nœuds d’organisation, sélectionnez le menu **Hiérarchie de l’organisation**, puis sélectionnez **Magasins de détail par type (Fabrikam)** .
+1.  Dans la barre d’outils **Canaux de commerce**, sélectionnez **+ Ajouter une ligne**. 
 
-1. Dans la liste NŒUDS D’ORGANISATION DISPONIBLES, sélectionnez En ligne, puis sélectionnez l’icône d’ajout ![Icône représentant une flèche pointant vers la droite](./media/d365-fo-add-org-node-icon.png) pour l’ajouter aux **NŒUDS D’ORGANISATION SÉLECTIONNÉS**.  
-  Cela ajoute le nœud parent et tous les nœuds enfants.
+1.  Dans le volet **Choisir des nœuds d’organisation**, pour **Hiérarchie d’organisation**, sélectionnez **Retail Stores by Type (Fabrikam)** [Magasins de détail par type (Fabrikam)]. 
 
-1. Ajoutez le nœud parent **Centre commercial**, puis cliquez sur **OK**.
+1.  Dans la liste NŒUDS D’ORGANISATION DISPONIBLES, sélectionnez En ligne, puis sélectionnez l’icône d’ajout ![Icône représentant une flèche pointant vers la droite](./media/d365-fo-add-org-node-icon.png) pour l’ajouter aux **NŒUDS D’ORGANISATION SÉLECTIONNÉS**.
 
-1. Vérifiez que les deux nœuds ont été ajoutés aux canaux Commerce.
+    Cela ajoute le nœud parent et tous les nœuds enfants. 
 
-1. Développez **Produits**.
+1.  Ajoutez le nœud parent **Centre commercial**, puis cliquez sur **OK**. 
 
-1. Dans le menu Produits, sélectionnez **+ Ajouter une ligne**.
+1.  Vérifiez que les deux nœuds ont été ajoutés au raccourci **Canaux de commerce**. 
 
-1. Sélectionnez le menu **Catégorie**, sélectionnez **Sports d’équipe (sports d’équipe)** , puis sélectionnez **OK**.
+1.  Développez le raccourci **Produits**. 
 
-1. Cela ajoute tous les articles enfants de la catégorie parent.
+1.  Dans la barre d’outils **Produits**, sélectionnez **+ Ajouter une ligne**. 
 
-1. Passez en revue la dernière colonne nommée **Type ligne**. Par défaut, tous les articles sont inclus.
+1.  Sélectionnez le menu **Catégorie**, développez **Team Sports (Team Sports)** [Sports d’équipe (Sports d’équipe)], puis sélectionnez **OK**.
 
-1. Sélectionnez **+ Ajouter une ligne**, sélectionnez le menu **Catégorie**, développez **Sports d’équipe (sports d’équipe)** , sélectionnez **Baseball**, puis cliquez sur **OK**.
+    Cela ajoute tous les articles enfants de la catégorie parent.
 
-1. Pour exclure un article d’une catégorie plus large déjà incluse, dans ce cas Sports d’équipe, dans la colonne Type ligne, remplacez la valeur par **Exclure**.
+1.  Passez en revue la dernière colonne nommée **Type ligne**. Par défaut, tous les articles sont inclus.
 
-1. À l’aide de la ligne de catégorie Baseball, sélectionnez le menu **Produits**.
+1.  Sélectionnez **+ Ajouter une ligne**, sélectionnez le menu **Catégorie**, développez **Sports d’équipe (sports d’équipe)** , sélectionnez **Baseball**, puis cliquez sur **OK**. 
 
-1. Lorsque les produits d’une catégorie sont définis, vous pouvez sélectionner un produit spécifique à inclure ou à exclure. Sélectionnez **AdultBaseballInfield**.
+1.  Pour exclure un article d’une catégorie plus large déjà incluse, dans le cas présent Team Sports (Sports d’équipe), dans la colonne **Type de ligne**, remplacez la valeur par `Exclude` 
 
-1. Pour supprimer un produit ajouté, supprimez le contenu de la boîte du produit, puis appuyez sur la touche de tabulation de votre clavier ou sélectionnez une autre zone de la page.
+1.  À l’aide de la ligne de catégorie Baseball, sélectionnez le menu **Produits**. 
 
-1. Dans le menu en haut, sélectionnez **Enregistrer**.
+1.  Lorsque les produits d’une catégorie sont définis, vous pouvez sélectionner un produit spécifique à inclure ou à exclure. Sélectionnez **AdultBaseballInfield** ou entrez `0013` 
 
-1. Dans le menu en haut, sélectionnez **Publier**.
+    > **Remarque :** Pour supprimer un produit ajouté, supprimez le contenu du champ **Produit**, puis appuyez sur la touche Tab de votre clavier ou sélectionnez une autre zone de la page. 
 
-1. Vérifiez les informations dans la boîte de dialogue, puis cliquez sur **Oui**.
+1.  Dans le volet Actions, sélectionnez **Enregistrer**, puis **Publier**. 
 
-1. Le nouvel assortiment de produits sera disponible à la date d’effet.
+1.  Cliquez sur **Oui** dans la boîte de dialogue de confirmation. Le nouvel assortiment de produits sera disponible à la **date d’effet**. 
+
