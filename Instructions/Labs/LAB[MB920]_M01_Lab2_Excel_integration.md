@@ -18,23 +18,25 @@ Dans ce labo, vous allez apprendre à copier des données de Finance and Operati
 
 ## Instructions
 
-Maintenant que vous vous êtes familiarisé avec les applications  de finances et d'opérations, prenez le temps d’explorer le scénario d’intégration d’Excel. 
+Maintenant que vous vous êtes familiarisé avec les applications  de finances et d'opérations, prenez le temps d’explorer le scénario d’intégration d’Excel.
 
-1.  Dans la page d’accueil **Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. 
+1.  Vérifier que vous êtes dans l’entité juridique **USMF**.
 
 2.  Accédez à **Approvisionnements** > **Configuration** > **Fournisseurs** > **Groupes de fournisseurs**.
 
-3.  Dans le volet Actions, sélectionnez **Ouvrir dans Microsoft Office** puis, sous **Ouvrir dans Excel**, sélectionnez **Groupes de fournisseurs (usmf)** .
+3.  Sélectionnez **Ouvrir dans Microsoft Office** > **Ouvrir dans Excel**.
 
-4.  Dans le volet **Ouvrir dans Excel**, sélectionnez **Télécharger**. 
+4.  Sélectionnez **Groupes de fournisseurs** (usmf) et téléchargez le modèle Excel.
 
-5.  Le fichier modèle Excel est alors téléchargé et enregistré. **Ouvrez** le fichier modèle Excel téléchargé, ignorez ou autorisez les autres invites de sécurité standard si nécessaire, fermez l’activation, puis sélectionnez **Activer la modification**. Sélectionnez **Approuver ce complément**, puis connectez-vous (avec les mêmes informations d’identification, si vous y êtes invité). 
+5.  Enregistrez, puis ouvrez le modèle Excel téléchargé, autorisez-le si nécessaire, fermez l’activation, puis sélectionnez **Activer la modification**. Approuvez ce complément, puis connectez-vous (avec vos mêmes informations d’identification, si vous y êtes invité).
 
-    Une fois la connexion établie, l’application Connecteur de données actualise les données existantes du tableau **Groupe de fournisseurs**, et celles-ci s’affichent dans la feuille de calcul Excel. 
+    Toutes les données existantes dans la table **Groupes de fournisseurs** s’affichent dans la feuille de calcul Excel.
 
-6.  Pour créer un enregistrement, entrez `100` dans le champ **Groupe de fournisseurs**, `Insurance vendor` dans le champ **Description**, puis `Net10` dans le champ **Conditions de paiement**. 
+6.  Entrez un nouvel enregistrement.
 
-7.  Sélectionnez le bouton **Publier** dans le volet Office Connecteur de données Microsoft Dynamics. 
+7.  Entrez **100** dans le champ **Groupe de fournisseurs**, **Fournisseur d’assurance** dans le champ **Description** et **Net10** dans le champ **Conditions de paiement**.
 
-8.  Actualisez la liste **Groupes de fournisseurs** dans Dynamics 365 Finance and Operations pour vérifier que le nouvel enregistrement a bien été ajouté. 
+8.  Sélectionnez le bouton **Publier** dans l’application Complément Microsoft Dynamics Office.
+
+9.  Ouvrez le formulaire **Groupe de fournisseurs** pour vérifier que le nouvel enregistrement est ajouté.
 

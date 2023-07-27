@@ -10,7 +10,7 @@ lab:
 
 ## Objectif
 
-Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour une nouvelle configuration d’armoire à acheter auprès des fournisseurs. 
+Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nouvelle configuration d’armoire auprès d’un fournisseur.  Vous devez créer un élément pour représenter la nouvelle configuration.  Dans ce labo, vous apprenez à créer un élément et des configurations d’éléments.
 
 ## Mise en place du labo
 
@@ -18,62 +18,98 @@ Dans Contoso Entertainment System USA (USMF), vous devez créer un article pour 
 
 ## Instructions
 
-1.  Dans la page d’accueil **Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. 
+Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nouvelle configuration d’armoire auprès d’un fournisseur.  Vous devez créer un élément pour représenter la nouvelle configuration. 
 
-1.  Si nécessaire, sélectionnez la société, puis, dans le menu, **USMF**.
+1.  Dans la page d’accueil Finance and Operations, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. Si nécessaire, dans la liste déroulante des sociétés, sélectionnez **USMF**.
 
-1.  En haut à gauche, sélectionnez le menu hamburger **Développer le volet de navigation**. 
+2.  En haut à gauche, sélectionnez le menu Hamburger **Développer le volet de navigation**.
 
-1.  Dans le volet de navigation, dans le module **Gestion des informations sur les produits**, sélectionnez **Produits** > **Produits lancés**. 
+3.  Dans le volet de navigation, sélectionnez **Modules**, puis **Gestion des informations sur les produits**. Ensuite, dans le menu **Produits**, sélectionnez **Produits**.
 
-1.  Dans la page  **Détails des produits lancés**, sélectionnez **+ Nouveau** dans le volet Actions. 
+4.  Dans la page **Produits**, dans le menu du haut, sélectionnez **+ Nouveau**.
 
-1.  Dans le volet **Nouveau produit lancé**, dans le champ  **Type de produit** , que **Article** est sélectionné. 
+5.  Dans la page **Nouveau produit**, dans le champ **Type de produit**, vérifiez qu’**Article** est sélectionné.
 
-1.  Dans le champ  **Sous-type de produit** , vérifiez que **Produit** est sélectionné. 
+6.  Dans le champ **Sous-type de produit**, vérifiez que **Produit** est sélectionné.
 
-1.  Sélectionnez le menu  **Groupe de dimension de suivi** , puis entrez ou sélectionnez  `None` 
+7.  Sous **IDENTIFICATION**, dans la zone **Numéro de produit**, entrez **GTL007**.
 
-1.  Sous **IDENTIFICATION**, dans  **Numéro de produit**, entrez  `GTL007`
+8.  Dans la zone **Nom du produit**, saisissez **Armoire 2**.
 
-1.  Dans la zone  **Nom du produit** , entrez  `Cabinet 2`
+    ![Capture d’écran montrant la vue standard de la page de création du nouveau produit.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
 
-1.  Sous **GROUPES DE RÉFÉRENCE**, dans le champ **Groupe de modèles d’article** , entrez ou sélectionnez `FIFO`, First In-First Out (premier entrée, premier sorti). 
+9.  Cliquez sur le bouton **OK**.
 
-1.  Dans le champ **Groupe d’articles**, entrez ou sélectionnez  `TV&Video` 
+10. Sous le menu **Produit** du volet Actions, sélectionnez **Groupes de dimensions** sous le groupe **Configurer**.
 
-1.  Pour **Groupe de dimensions de stockage**, entrez ou sélectionnez `SiteWH` 
+    ![Capture d’écran montrant l’option Configurer sous le menu Produit où les détails des différents groupes de dimensions peuvent être ajoutés.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
 
-1.  Sous **UNITÉS DE MESURES**, vérifiez que les valeurs suivantes sont définies : 
+11. Sélectionnez la liste déroulante **Groupe de dimension de stockage**, puis **SiteWH**.
 
-    | **Paramètre**    | **Valeur** |
-    | :------------- | :-------- |
-    | Unité de stock | ea Chaque   |
-    | Unité d’achat  | ea Chaque   |
-    | Unité de vente     | ea Chaque   |
-    | Unité de nomenclature       | ea Chaque   |
+12. Sélectionnez la liste déroulante **Groupe de dimension de stockage**, puis **Aucun**.
 
-1.  Sous **IMPOSITION SUR LES VENTES**, pour **Groupe de taxe d’article**, entrez ou sélectionnez `ALL` 
+13. Cliquez sur le bouton **OK**.
 
-1.  Sous **IMPOSITION SUR LES ACHATS**, pour **Groupe de taxe d’article**, entrez ou sélectionnez `ALL` 
+14. Sélectionnez le bouton **Lancer des produits** dans le volet Actions pour lancer le produit dans une entité juridique.
 
-1.  Sous **PRIX**, dans la zone **Prix d’achat** , entrez `30.00`
+15. Une page s’ouvre, affichant la première étape sous la forme **Sélectionner les produits à lancer**.
 
-1.  Dans le champ **Prix de vente** , entrez `30.00`
+    ![Capture d’écran montrant la vue standard de la page Lancer des produits.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
 
-1.  Vérifiez que votre nouveau **Produit lancé** se présente comme suit : 
+16. Sélectionnez le bouton **Suivant** en bas de la page.
 
-    ![Image d’écran affichant le formulaire de nouvelle version du produit complété](./media/lp1-m2-new-release-product.png)
+17. Dans la page **Sélectionner les sociétés vers lesquelles lancer**, sélectionnez l’entité juridique **USMF** où le produit doit être lancé.
 
-1.  Sélectionnez **OK**. 
+18. Sélectionnez le bouton **Suivant** en bas de la page.
 
-1.  Pour vérifier que le produit est finalisé, dans le volet Actions, sous **Tenir à jour**, sélectionnez l’action **Valider**. 
+19. Dans la page **Confirmer la sélection**, définissez la valeur **Afficher la fenêtre Infos en cas d’échec** sur **Oui** et **sur Exécuter en tant que lot** sur **Non**.
 
-    ![Image d’écran présentant la barre de ruban avec Valider en surbrillance](./media/lp1-m2-validate-ribbon-bar.png)
+20. Sélectionnez le bouton **Terminé** en bas de la page.
 
-1.  La notification confirmant que toutes les valeurs de champs obligatoires ont été validées doit alors s’afficher. 
+21. Dans le volet de navigation, sélectionnez Modules, puis Gestion des informations sur les produits. Ensuite, dans le menu Produits, sélectionnez **Produits lancés**.
 
-    ![Image d’écran de notification d’informations indiquant que tous les champs obligatoires ont été validés](./media/lp1-m2-confirmation-of-validation.png)
+22. Dans la page **Produits** **lancés**, recherchez le nouvel élément **GTL007** dans la grille. 
 
-1.  Sélectionnez **Enregistrer**, **fermez** toutes les pages et revenez à la page d’accueil. 
+23. Sélectionnez le lien du produit, puis accédez à la page **Détails du produit**.
 
+24. Dans le raccourci **Général**, entrez les informations suivantes :
+
+    - **Groupe de modèles d’article** : FIFO
+
+25. Dans le raccourci **Achat**, entrez les informations suivantes :
+
+    - **Unité** : ea
+
+    - **Groupe de taxe d’article** : Tout
+
+    - **Prix** : 30
+
+26. Dans le raccourci **Vendre**, entrez les informations suivantes :
+
+    - **Unité** : ea
+
+    - **Groupe de taxe d’article** : Tout
+
+    - **Prix** : 35
+
+27. Dans le raccourci **Gérer le stock**, entrez les informations suivantes :
+
+    - **Unité** : ea
+
+28. Dans le raccourci **Ingénieur**, entrez les informations suivantes :
+
+    - **Unité de nomenclature** : ea
+
+29. Dans le raccourci **Gérer les coûts**, entrez les informations suivantes :
+
+    - **Groupe d’articles** : audio
+
+30. Pour terminer la configuration, sélectionnez Produit dans le volet Actions. Sélectionnez le bouton Valider sous le groupe Tenir à jour.
+
+    ![Capture d’écran montrant le groupe Tenir à jour sous le bouton Produit dans le volet Actions. Le bouton Valider du groupe Tenir à jour est sélectionné.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
+
+31. Vérifiez que vous voyez la bannière d’informations confirmant que toutes les valeurs de champ nécessaires ont été validées.
+
+    ![Capture d’écran montrant la bannière d’informations qui confirme que toutes les valeurs de champ nécessaires ont été validées. ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
+
+32. Fermez toutes les pages et revenez à la page d’accueil.
