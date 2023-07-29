@@ -35,87 +35,81 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
 ### Parcourir les applications Finance and Operations
 
-1.  Dans la page d’accueil **Finance and Operations**, vous voyez : 
+Maintenant que vous vous êtes familiarisé avec les applications Finance and Operations, prenez le temps de découvrir les interfaces.
 
-    - Le menu de navigation à gauche, qui est réduit par défaut 
+1.  Si elles sont configurées, la page d’accueil **Finance and Operations** affiche les éléments suivants :
 
-    - L’image de bannière par défaut de l’entreprise. 
+    - Le menu de navigation à gauche, qui est réduit par défaut
 
-    - Les vignettes d’espace de travail à votre disposition en fonction de votre rôle dans l’organisation 
+    - Le logo de votre société
 
-    - Un calendrier et des éléments de travail qui vous sont affectés 
+    - Les vignettes d’espace de travail à votre disposition en fonction de votre rôle dans l’organisation
 
-    - La barre **Rechercher une page**, qui est très utile pour rechercher rapidement ce dont vous avez besoin. 
+    - Un calendrier et des éléments de travail qui vous sont affectés
 
-    - La société que vous utilisez actuellement, les notifications, les paramètres et les liens d’aide en haut à droite 
+    -  La barre de recherche, qui est utile pour rechercher rapidement ce dont vous avez besoin.
 
-    ![Page d’accueil de Dynamics 365 Finance and Operations où des zones sont mises en surbrillance](./media/m1-common-home-page.png)
+    - En haut à droite se trouve la société avec laquelle vous travaillez actuellement, les notifications, les paramètres et les liens d’aide. Vérifiez que la société indiquée est bien **USMF**.
 
-1.  Vérifiez que la société indiquée est bien **USMF**. 
+    ![Capture d’écran de la page d’accueil de Dynamics 365 Finance and Operations avec des zones mises en évidence.](./media/lab-navigate-finance-and-operations-apps-04.png)
 
-1.  En haut à gauche, sélectionnez le menu hamburger **Développer le volet de navigation**. 
+2.  En haut à gauche, sélectionnez le menu hamburger **Développer le volet de navigation**.
 
-1.  Le volet de navigation contient des collections pour vos **Favoris**, vos éléments **Récents**, vos **Espaces de travail** et vos **Modules**. 
+3.  Le volet de navigation est l’endroit où se trouvent des collections pour vos **Favoris**, vos éléments **Récents**, vos **Espaces de travail** et vos **Modules**.
 
-1.  Dans le volet de navigation, sélectionnez **Modules** > **Administration du système**. 
+4.  Dans le volet de navigation, sélectionnez **Modules** > **Administration du système**.
 
-1.  **Passez en revue** les différentes zones disponibles dans le module **Administration système**. 
+5.  Passez en revue les zones disponibles dans le module Administration système.
 
-1.  Sous **Configuration**, sélectionnez **Options de performances client**. 
+6.  Sous **Configuration**, sélectionnez **Options de performances client**.
 
-1.  Dans le volet Options de performances du client, sous **Légendes de fonction activées**, positionnez le bouton bascule sur **Oui**. 
+7.  Dans le volet **Options de performances du client**, sous **Légendes de fonction activées**, positionnez le bouton bascule sur **Oui**.
 
-1.  Passez en revue les autres options disponibles, faites défiler le volet vers le bas, puis sélectionnez **OK**. 
+8.  Passez en revue les autres options disponibles, faites défiler le volet vers le bas, puis cliquez sur **OK**.
 
-1.  En haut à droite de la page d’accueil, sélectionnez l’icône **Paramètres**, puis **Options utilisateur**. 
+9.  En haut à droite de la page d’**accueil**, cliquez sur l’icône **Paramètres**, puis sélectionnez **Options utilisateur**.
 
-    ![Capture d’écran affichant l’icône Paramètres et la liste déroulante Options utilisateur](./media/m1-common-settings-user-settings.png)
+    ![Capture d’écran de l’icône Paramètres et de la liste déroulante Options utilisateur.](./media/lab-navigate-finance-and-operations-apps-05.png)
 
-1.  Dans la page **Options utilisateur**, utilisez les onglets pour configurer les différents paramètres qui s’appliqueront à votre compte. 
+10. Dans la page **Options**, utilisez les onglets pour configurer différents paramètres qui s’appliquent à votre compte.
 
-1.  Sélectionnez l’onglet **Préférences**. 
+11. Sélectionnez l’onglet **Préférences**.
 
-1.  Passez en revue les préférences disponibles. Notez que vous pouvez modifier la **Société** et la **Page initiale** par défaut qui s’affichent lorsque vous vous connectez. 
+12. Passez en revue les préférences disponibles. Notez que vous pouvez changer la société par défaut et la vue de page initiale lorsque vous vous connectez.
 
-1.  Sélectionnez et examinez les onglets **Compte** et **Flux de travail**. 
+13. Sélectionnez et examinez les onglets **Compte** et **Flux de travail**.
 
-1.  Dans le menu de navigation à gauche, cliquez sur l’icône **Accueil**. 
+14. Dans le menu de navigation à gauche, cliquez sur l’icône **Accueil**.
 
-1.  En haut au centre de la page d’accueil, cliquez sur la zone **Rechercher une page**. 
+15. En haut au centre de la page d’**accueil**, sélectionnez la zone **Rechercher une page**.
 
-1.  Dans la zone de recherche, recherchez `All vendors` 
+16. Dans la zone de recherche, recherchez **Tous les fournisseurs**.
 
-1.  Vous devrez peut-être patienter la première fois que vous recherchez une page. Un petit cercle tournant s’affiche à droite de la zone de recherche pendant le traitement de la recherche. 
+17. Sélectionnez **Tous les fournisseurs** > Comptabilité fournisseur > Fournisseurs.
 
-1.  Sélectionnez le premier résultat **Tous les fournisseurs**. Cela revient à accéder à **Modules** > **Comptabilité fournisseur** > **Fournisseurs** > **Tous les fournisseurs**. 
+18. Vous devrez peut-être patienter la première fois que vous recherchez une page. Un petit cercle tournant s’affiche à droite de la zone de recherche pendant le traitement de la recherche.
 
-1.  La page **Tous les fournisseurs** est un exemple de page de liste. La page de liste contient généralement des données principales qui peuvent être lues, créées, supprimées et mises à jour. Vous pouvez voir d’autres fonctions disponibles en utilisant le volet Actions situé au-dessus de la liste. 
+19. La page **Tous les fournisseurs** est un exemple de page de liste. La page de liste contient des données principales qui peuvent être lues, créées, supprimées et mises à jour.  Il existe d’autres fonctionnalités utilisant le ruban situé au-dessus de la liste.
 
-    ![Liste de tous les fournisseurs où les fonctionnalités du menu sont mises en surbrillance](./media/m1-common-all-vendor-list-page.png)
+    ![Capture d’écran de la liste Tous les fournisseurs avec les fonctionnalités du menu mises en évidence.](./media/lab-navigate-finance-and-operations-apps-06.png)
 
-1.  Mettez en surbrillance l’un des fournisseurs de la liste, sélectionnez le volet Récapitulatif **Informations associées** à droite, puis passez en revue les informations supplémentaires qui vous sont présentées. 
+20. Mettez en surbrillance l’un des fournisseurs de la liste, cliquez sur le menu **Informations associées** à droite, puis passez en revue les informations supplémentaires fournies.
 
-1.  Dans la liste des fournisseurs, ouvrez l’enregistrement **Acme Office Supplies**. 
+21. Dans la liste des fournisseurs, sélectionnez **Fournitures de bureau ACME**.
 
-1.  Sélectionnez **Modifier** dans le volet Actions puis, dans le champ **Groupe**, sélectionnez le menu déroulant, puis le titre de colonne **Groupe de fournisseurs**. 
+22. Cliquez sur le menu **Groupe**, puis sélectionnez le titre de colonne **Groupe de fournisseurs**.
 
-    ![Capture d’écran du titre de colonne Fournitures de bureau ACME du groupe Fournisseurs.](./media/m1-common-vendor-group-menu-24493345.png)
+    ![Capture d’écran du titre de colonne Groupe de fournisseurs pour ACME Office Supplies (Fournitures de bureau ACME).](./media/lab-navigate-finance-and-operations-apps-07.png)
 
-1.  De nombreux menus proposent des options de **tri** et de **filtrage**. Utilisez les filtres pour trouver rapidement le contenu de champ que vous recherchez. Si vous connaissez déjà la valeur, au lieu d’utiliser le menu déroulant, vous pouvez simplement l’entrer dans le champ. 
+23. De nombreux menus proposent des options de tri et de filtrage. Utilisez les filtres pour trouver rapidement le contenu de champ que vous recherchez.
 
-1.  Comme vous pouvez le constater, à droite du volet Actions figurent des fonctionnalités supplémentaires. Placez le pointeur de la souris sur chaque élément, puis examinez la légende de la fonctionnalité. 
+24. En haut à droite, notez les fonctionnalités supplémentaires. Déplacez votre souris sur chaque élément et examinez la légende de la fonctionnalité. Quand vous avez terminé, cliquez sur l’icône **Fermer** pour fermer la page et revenir à la page d’**accueil**.
 
-1.  Sélectionnez l’icône **Fermer** pour fermer cet enregistrement et revenir à la page de liste **Tous les fournisseurs**. 
+    ![Capture d’écran du menu situé en haut à droite de la page Liste affichant des fonctionnalités supplémentaires qui permettent de se connecter à Power Apps ou aux applications Office, et les boutons Document joint, Actualiser la page, Ouvrir dans une nouvelle fenêtre et Fermer.](./media/lab-navigate-finance-and-operations-apps-08.png)
 
-    ![Menu supérieur droit de la page de liste affichant des fonctionnalités supplémentaires qui permettent de se connecter à PowerApps, aux applications Office, aux pièces jointes, d’actualiser la page, d’ouvrir une nouvelle fenêtre et de fermer](./media/m1-common-list-page-additional-features-menu.png)
+25. En haut à droite, cliquez sur l’icône d’**Aide** en forme de point d’interrogation, puis sélectionnez **Aide**.
 
-1.  En haut à droite, sélectionnez **?** (icône de point d’interrogation), puis sélectionnez **Aide**. 
+26. Notez que les informations d’aide concernent la page active.
 
-1.  Notez que le volet d’informations affiche du contenu d’aide pour la page actuelle. **Fermez** le volet Aide. 
-
-1.  Revenez au **Tableau de bord par défaut** en utilisant le bouton **Finance and Operations** tout en haut à gauche ou l’icône **Accueil** dans le menu de navigation de gauche. 
-
-    > **Remarque :** Raccourci clavier : Alt+Maj+Début. Dynamics 365 Finance and Operations prend en charge de nombreux raccourcis clavier pour accélérer l’accès au système : https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
-
-1.  Essayez de sélectionner une **vignette d’espace de travail**, puis consultez les informations d’aide sur l’espace de travail en question. Lorsque vous avez terminé, revenez au tableau de bord par défaut. 
+27. Tentez de cliquer sur une vignette d’espace de travail, puis consultez les informations d’aide sur l’espace de travail concerné. Quand vous avez terminé, revenez à la page d’**accueil**.
 
