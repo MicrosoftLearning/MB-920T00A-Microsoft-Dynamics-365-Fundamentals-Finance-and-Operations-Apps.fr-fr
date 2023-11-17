@@ -34,11 +34,11 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 8.  Définissez **Date d’expiration** sur **Jamais**.
 
-    La date d’expiration peut être utilisée pour désactiver automatiquement un assortiment publié.
+    La date d’expiration permet de désactiver automatiquement un assortiment publié.
 
 9.  Développez **Canaux Commerce**.
 
-10. Dans le menu **Canaux de commerce**, sélectionnez **+ Ajouter une ligne**.
+10. Dans le menu **Canaux Commerce**, cliquez sur **+ Ajouter une ligne**.
 
 11. Dans **Choisir des nœuds d’organisation**, sélectionnez le menu **Hiérarchie de l’organisation**, puis sélectionnez **Magasins de détail par type (Fabrikam)**.
 
@@ -52,13 +52,13 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 15. Développez **Produits**.
 
-16. Dans le menu **Produits**, sélectionnez **+ Ajouter une ligne**.
+16. Dans le menu **Produits**, cliquez sur **+ Ajouter une ligne**.
 
 17. Sélectionnez le menu **Catégorie**, sélectionnez **Sports d’équipe (Team Sports)**, puis **OK**.
 
-    Cela ajoute tous les articles enfants de la catégorie parent.
+    Tous les articles enfants de la catégorie parent sont alors ajoutés.
 
-18. Passez en revue la dernière colonne nommée **Type ligne**. Par défaut, tous les articles sont inclus.
+18. Passez en revue la dernière colonne nommée **Type ligne**. Par défaut, tous les articles sont inclus.
 
 19. Sélectionnez **+ Ajouter une ligne**, sélectionnez le menu **Catégorie**, développez **Sports d’équipe (sports d’équipe)** , sélectionnez **Baseball**, puis cliquez sur **OK**.
 
@@ -70,9 +70,9 @@ Vous devez créer un assortiment de produits associés qui sont affectés à un 
 
 23. Pour supprimer un produit ajouté, supprimez le contenu de la zone Produit, puis appuyez sur la touche **Tab** de votre clavier ou sélectionnez une autre zone de la page.
 
-24. Dans le menu en haut, sélectionnez **Enregistrer**.
+24. Dans le menu en haut, cliquez sur **Enregistrer**.
 
-25. Dans le menu en haut, sélectionnez **Publier**.
+25. Dans le menu en haut, cliquez sur **Publier**.
 
 26. Vérifiez les informations dans la boîte de dialogue, puis cliquez sur **Oui**.
 

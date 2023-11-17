@@ -36,7 +36,7 @@ Maintenant que vous vous êtes familiarisé avec les applications  de finances e
 
 7.  Entrez **100** dans le champ **Groupe de fournisseurs**, **Fournisseur d’assurance** dans le champ **Description** et **Net10** dans le champ **Conditions de paiement**.
 
-8.  Sélectionnez le bouton **Publier** dans l’application Complément Microsoft Dynamics Office.
+8.  Sélectionnez le bouton **Publier** dans l’application Macro complémentaire Office Microsoft Dynamics.
 
 9.  Ouvrez le formulaire **Groupe de fournisseurs** pour vérifier que le nouvel enregistrement est ajouté.
 

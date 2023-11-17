@@ -10,7 +10,7 @@ lab:
 
 ## Objectif
 
-Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nouvelle configuration d’armoire auprès d’un fournisseur.  Vous devez créer un élément pour représenter la nouvelle configuration.  Dans ce labo, vous apprenez à créer un élément et des configurations d’éléments.
+Dans Contoso Entertainment System USA (USMF), vous planifiez d’acheter une nouvelle configuration d’armoire auprès d’un fournisseur. Vous devez créer un article pour représenter la nouvelle configuration. Dans ce labo, vous apprenez à créer un élément et des configurations d’éléments.
 
 ## Mise en place du labo
 
@@ -18,7 +18,7 @@ Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nou
 
 ## Instructions
 
-Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nouvelle configuration d’armoire auprès d’un fournisseur.  Vous devez créer un élément pour représenter la nouvelle configuration. 
+Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nouvelle configuration d’armoire auprès d’un fournisseur. Vous devez créer un article pour représenter la nouvelle configuration.
 
 1.  Dans la page d’accueil Finance and Operations, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. Si nécessaire, dans la liste déroulante des sociétés, sélectionnez **USMF**.
 
@@ -36,13 +36,13 @@ Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nou
 
 8.  Dans la zone **Nom du produit**, saisissez **Armoire 2**.
 
-    ![Capture d’écran montrant la vue standard de la page de création du nouveau produit.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
+    ![Capture d’écran illustrant la vue standard de la page de création d’un produit.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
 
 9.  Cliquez sur le bouton **OK**.
 
 10. Sous le menu **Produit** du volet Actions, sélectionnez **Groupes de dimensions** sous le groupe **Configurer**.
 
-    ![Capture d’écran montrant l’option Configurer sous le menu Produit où les détails des différents groupes de dimensions peuvent être ajoutés.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
+    ![Capture d’écran illustrant l’option Configuration sous le menu Produit où les différents détails de groupe de dimensions peuvent être ajoutés.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
 
 11. Sélectionnez la liste déroulante **Groupe de dimension de stockage**, puis **SiteWH**.
 
@@ -54,7 +54,7 @@ Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nou
 
 15. Une page s’ouvre, affichant la première étape sous la forme **Sélectionner les produits à lancer**.
 
-    ![Capture d’écran montrant la vue standard de la page Lancer des produits.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
+    ![Capture d’écran illustrant la vue standard de la page Lancer les produits.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
 
 16. Sélectionnez le bouton **Suivant** en bas de la page.
 
@@ -66,7 +66,7 @@ Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nou
 
 20. Sélectionnez le bouton **Terminé** en bas de la page.
 
-21. Dans le volet de navigation, sélectionnez Modules, puis Gestion des informations sur les produits. Ensuite, dans le menu Produits, sélectionnez **Produits lancés**.
+21. Dans le volet de navigation, cliquez sur Modules, puis sur Gestion des informations produit. Ensuite, dans le menu Produits, sélectionnez **Produits lancés**.
 
 22. Dans la page **Produits** **lancés**, recherchez le nouvel élément **GTL007** dans la grille. 
 
@@ -104,7 +104,7 @@ Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nou
 
     - **Groupe d’articles** : audio
 
-30. Pour terminer la configuration, sélectionnez Produit dans le volet Actions. Sélectionnez le bouton Valider sous le groupe Tenir à jour.
+30. Pour terminer la configuration, cliquez sur Produit dans le volet Actions. Sélectionnez le bouton Valider sous le groupe Tenir à jour.
 
     ![Capture d’écran montrant le groupe Tenir à jour sous le bouton Produit dans le volet Actions. Le bouton Valider du groupe Tenir à jour est sélectionné.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
 
