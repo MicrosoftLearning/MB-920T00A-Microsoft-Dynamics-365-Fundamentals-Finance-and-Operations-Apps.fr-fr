@@ -28,7 +28,7 @@
 
 - Vous pouvez soumettre des problèmes, des changements, des améliorations et des idées.  Vous avez découvert une nouvelle fonctionnalité Dynamics avant nous ?  Envoyez une nouvelle démonstration !
 
-## Remarques
+## Notes
 
 ### Documents de cours
 

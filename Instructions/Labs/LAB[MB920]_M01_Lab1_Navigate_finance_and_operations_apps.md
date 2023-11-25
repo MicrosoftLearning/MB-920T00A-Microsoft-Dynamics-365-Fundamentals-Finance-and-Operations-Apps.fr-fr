@@ -39,19 +39,19 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
 1.  Si elles sont configurées, la page d’accueil **Finance and Operations** affiche les éléments suivants :
 
-    - Le menu de navigation à gauche, qui est réduit par défaut
+    - Le menu de navigation à gauche, qui est réduit par défaut.
 
-    - Le logo de votre société
+    - Le logo de votre société.
 
-    - Les vignettes d’espace de travail à votre disposition en fonction de votre rôle dans l’organisation
+    - Les vignettes d’espace de travail à votre disposition en fonction de votre rôle dans l’organisation.
 
-    - Un calendrier et des éléments de travail qui vous sont affectés
+    - Un calendrier et des éléments de travail qui vous sont affectés.
 
-    -  La barre de recherche, qui est utile pour rechercher rapidement ce dont vous avez besoin.
+    - La barre de recherche, qui est utile pour rechercher rapidement ce dont vous avez besoin.
 
-    - En haut à droite se trouve la société avec laquelle vous travaillez actuellement, les notifications, les paramètres et les liens d’aide. Vérifiez que la société indiquée est bien **USMF**.
+    - La société que vous utilisez actuellement, les notifications, les paramètres et les liens d’aide en haut à droite. Vérifiez que la société indiquée est bien **USMF**.
 
-    ![Capture d’écran de la page d’accueil de Dynamics 365 Finance and Operations avec des zones mises en évidence.](./media/lab-navigate-finance-and-operations-apps-04.png)
+    ![Capture d’écran de la page d’accueil des applications de finances et d’opérations Dynamics 365 avec les zones mises en surbrillance.](./media/lab-navigate-finance-and-operations-apps-04.png)
 
 2.  En haut à gauche, sélectionnez le menu hamburger **Développer le volet de navigation**.
 
@@ -69,13 +69,13 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
 9.  En haut à droite de la page d’**accueil**, cliquez sur l’icône **Paramètres**, puis sélectionnez **Options utilisateur**.
 
-    ![Capture d’écran de l’icône Paramètres et de la liste déroulante Options utilisateur.](./media/lab-navigate-finance-and-operations-apps-05.png)
+    ![Capture d’écran de la liste déroulante de l’icône Paramètres avec l’option Options utilisateur mise en surbrillance.](./media/lab-navigate-finance-and-operations-apps-05.png)
 
 10. Dans la page **Options**, utilisez les onglets pour configurer différents paramètres qui s’appliquent à votre compte.
 
 11. Sélectionnez l’onglet **Préférences**.
 
-12. Passez en revue les préférences disponibles. Notez que vous pouvez changer la société par défaut et la vue de page initiale lorsque vous vous connectez.
+12. Passez en revue les préférences disponibles. Notez que vous pouvez modifier la société par défaut et la vue de la page initiale lorsque vous vous connectez.
 
 13. Sélectionnez et examinez les onglets **Compte** et **Flux de travail**.
 
@@ -89,9 +89,9 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
 18. Vous devrez peut-être patienter la première fois que vous recherchez une page. Un petit cercle tournant s’affiche à droite de la zone de recherche pendant le traitement de la recherche.
 
-19. La page **Tous les fournisseurs** est un exemple de page de liste. La page de liste contient des données principales qui peuvent être lues, créées, supprimées et mises à jour.  Il existe d’autres fonctionnalités utilisant le ruban situé au-dessus de la liste.
+19. La page **Tous les fournisseurs** est un exemple de page de liste. La page de liste contient des données principales qui peuvent être lues, créées, supprimées et mises à jour. Vous disposez de fonctionnalités supplémentaires à l’aide du ruban affiché au-dessus de la liste.
 
-    ![Capture d’écran de la liste Tous les fournisseurs avec les fonctionnalités du menu mises en évidence.](./media/lab-navigate-finance-and-operations-apps-06.png)
+    ![Capture d’écran de la liste Tous les fournisseurs avec les fonctionnalités du menu mises en surbrillance.](./media/lab-navigate-finance-and-operations-apps-06.png)
 
 20. Mettez en surbrillance l’un des fournisseurs de la liste, cliquez sur le menu **Informations associées** à droite, puis passez en revue les informations supplémentaires fournies.
 
@@ -99,7 +99,7 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
 22. Cliquez sur le menu **Groupe**, puis sélectionnez le titre de colonne **Groupe de fournisseurs**.
 
-    ![Capture d’écran du titre de colonne Groupe de fournisseurs pour ACME Office Supplies (Fournitures de bureau ACME).](./media/lab-navigate-finance-and-operations-apps-07.png)
+    ![Capture d’écran du titre de colonne Groupe de fournisseurs pour Acme Office Supplies.](./media/lab-navigate-finance-and-operations-apps-07.png)
 
 23. De nombreux menus proposent des options de tri et de filtrage. Utilisez les filtres pour trouver rapidement le contenu de champ que vous recherchez.
 

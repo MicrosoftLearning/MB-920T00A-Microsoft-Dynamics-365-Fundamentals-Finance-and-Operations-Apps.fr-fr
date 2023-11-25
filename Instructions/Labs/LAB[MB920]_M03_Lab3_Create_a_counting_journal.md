@@ -38,7 +38,7 @@ lab:
 
 9.  Dans la colonne **Compté** de la section **Ligne de journal**, mettez en correspondance les nombres comptés pour chaque site/entrepôt et emplacement. Notez les points suivants : 
 
-    - Si la quantité **disponible** est identique à la quantité **comptée**, le champ **Quantité** est vide. 
+    - Si la quantité **Disponible** est égale à celle **Comptée**, le champ **Quantité** est vide. 
 
     - Si la valeur du champ **Compté** est supérieure à celle du champ **Disponible**, le champ **Quantité** contient une valeur positive. 
 

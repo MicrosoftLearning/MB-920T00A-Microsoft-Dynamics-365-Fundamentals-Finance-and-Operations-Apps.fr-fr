@@ -10,7 +10,7 @@ lab:
 
 ## Objectif
 
-Les ordres de fabrication permettent de lancer le processus de production dans Supply Chain Management. Dans ce labo, vous vous familiarisez avec l’interface utilisateur et les fonctionnalités du formulaire d’ordre de fabrication. Vous apprenez également à créer un ordre de fabrication à la fin de l’exercice.
+Les ordres de fabrication permettent de lancer le processus de production dans Supply Chain Management. Dans ce labo, vous allez vous familiariser avec l’interface utilisateur et les fonctionnalités du formulaire Ordre de fabrication. Vous apprenez également à créer un ordre de fabrication à la fin de l’exercice.
 
 ## Mise en place du labo
 
@@ -32,9 +32,9 @@ Les ordres de fabrication permettent de lancer le processus de production dans S
 
 7.  Sous **PRODUCTION**, dans la zone **Livraison**, sélectionnez une date ultérieure d’un mois à la date du jour.
 
-    La date de livraison indique quand l’ordre de fabrication doit prendre fin pour une livraison dans les temps.  Cette date peut être utilisée dans le processus de planification. Par exemple, vous pouvez planifier la commande à rebours à partir de la date de livraison.
+    La date de livraison indique quand l’ordre de fabrication doit prendre fin pour une livraison dans les temps. Cette date peut être utilisée dans le processus de planification. Par exemple, vous pouvez planifier la commande à rebours à partir de la date de livraison.
 
-8.  Sous NOMENCLATURE/GAMME, le champ **Numéro de nomenclature** affiche automatiquement le numéro de toute nomenclature active pour l’article actuel, mais vous pouvez modifier la nomenclature de l’ordre de fabrication en sélectionnant une nomenclature active dans la liste des versions de nomenclature approuvées.  Le champ **Numéro de gamme** affiche automatiquement le numéro de toute gamme active pour l’article actuel, mais vous pouvez modifier la gamme de l’ordre de fabrication en sélectionnant une gamme active dans la liste des versions de gamme approuvées.
+8.  Sous NOMENCLATURE/GAMME, le champ **Numéro de nomenclature** affiche automatiquement le numéro de toute nomenclature active pour l’article actuel, mais vous pouvez modifier la nomenclature de l’ordre de fabrication en sélectionnant une nomenclature active dans la liste des versions de nomenclature approuvées. Le champ **Numéro de gamme** affiche automatiquement le numéro de toute gamme active pour l’article actuel, mais vous pouvez modifier la gamme de l’ordre de fabrication en sélectionnant une gamme active dans la liste des versions de gamme approuvées.
 
     ![Capture d’écran montrant la page Créer un ordre de fabrication. Les champs Numéro d’article et Livraison sont mis en évidence.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-40.png)
 
