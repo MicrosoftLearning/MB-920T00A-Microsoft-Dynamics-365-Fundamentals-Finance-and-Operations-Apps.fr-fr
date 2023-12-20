@@ -103,7 +103,7 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
 23. De nombreux menus proposent des options de tri et de filtrage. Utilisez les filtres pour trouver rapidement le contenu de champ que vous recherchez.
 
-24. En haut à droite, notez les fonctionnalités supplémentaires. Déplacez votre souris sur chaque élément et examinez la légende de la fonctionnalité. Quand vous avez terminé, cliquez sur l’icône **Fermer** pour fermer la page et revenir à la page d’**accueil**.
+24. En haut à droite, notez les fonctions supplémentaires. Placez le pointeur de la souris sur chaque élément, puis examinez la légende de la fonction. Lorsque vous avez terminé, sélectionnez l’icône **Précédent** à l’autre extrémité de la barre d’outils pour fermer la page et revenir à la page précédente.
 
     ![Capture d’écran du menu situé en haut à droite de la page Liste affichant des fonctionnalités supplémentaires qui permettent de se connecter à Power Apps ou aux applications Office, et les boutons Document joint, Actualiser la page, Ouvrir dans une nouvelle fenêtre et Fermer.](./media/lab-navigate-finance-and-operations-apps-08.png)
 
