@@ -62,7 +62,7 @@ L’en-tête commande est maintenant créé. Lorsque vous utilisez des lignes de
 
 12. Sous **AFFICHAGE**, sélectionnez **Dimensions**.
 
-    Les produits peuvent être dans des variantes différenciées par des dimensions telles que la couleur, la taille ou le style. Les produits peuvent également être configurés pour utiliser des dimensions de stockage, telles que le site et l’entrepôt. Il existe également des dimensions de suivi facultatives, telles que les numéros de lot et de série. Pour améliorer l’efficacité de la saisie des commandes, vous pouvez ajouter les champs de dimension que vous utilisez généralement directement dans la grille de commande.
+    Les produits peuvent être dans des variantes différenciées par des dimensions telles que la couleur, la taille ou le style. Les produits peuvent également être configurés pour utiliser des dimensions de stockage, telles que le site et l’entrepôt. Il existe également des dimensions de suivi facultatives, telles que le lot et les numéros de série. Pour améliorer l’efficacité de la saisie des commandes, vous pouvez ajouter les champs de dimension que vous utilisez généralement directement dans la grille de commande.
 
 13. Dans le volet **Affichage des dimensions**, sous **DIMENSIONS DE**activez ma case à cocher **Couleur**.
 
