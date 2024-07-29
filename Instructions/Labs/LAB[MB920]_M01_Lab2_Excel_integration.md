@@ -1,12 +1,12 @@
 ---
 lab:
-  title: "Labo\_2\_: Intégration à Excel"
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: "Labo\_1.2\_: Intégration d’Excel"
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
+# Parcours d’apprentissage 1 : Explorer les fonctionnalités principales des applications de finances et d’opérations Dynamics 365
+# Module 3 : décrire les fonctionnalités de génération de rapports et d’intégration dans les applications de finances et d’opérations
 
-# Module 1 : Explorer les fonctionnalités principales des applications de finances et d’opérations Dynamics 365
-
-## Labo 2 : Intégration à Excel
+## Labo 1.2 : Intégration d’Excel
 
 ## Objectif
 
