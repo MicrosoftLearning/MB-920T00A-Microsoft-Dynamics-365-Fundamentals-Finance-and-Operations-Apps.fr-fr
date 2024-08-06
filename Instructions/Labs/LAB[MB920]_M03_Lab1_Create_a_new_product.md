@@ -5,7 +5,7 @@ lab:
 ---
 
 # Parcours d’apprentissage 3 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management
-# Module 2 : Décrire le processus de vente et d’approvisionnement
+# Module 2 : décrire le processus de vente et d’approvisionnement
 
 ## Labo 3.1 : Créer un nouveau produit
 
@@ -13,13 +13,13 @@ Votre organisation prévoit de créer un nouvel article, en l’occurrence une c
 
 ## Étapes de l’exercice
 
-1. Dans le volet de navigation Dynamics 365 Supply Chain Management, sélectionnez **Modules**, puis sélectionnez **Gestion des informations sur les produits** > **Configuration** > **Groupes de dimensions et de variantes**. Ouvrez la page **Groupes de couleurs** et créez un enregistrement.
+1. Dans le volet de navigation Dynamics 365 Supply Chain Management, sélectionnez **Modules**, puis sélectionnez **Gestion des informations sur les produits** > **Configuration** > **Groupes de dimensions et de variantes**. Ouvrez la page **Groupes de couleurs** et créez un enregistrement.
 
     - Groupe de couleurs : **ShirtColor**
 
     - Description : **Couleur de chemise**
 
-2. Dans le raccourci**Lignes de groupes de couleurs **, entrez les trois enregistrements suivants :
+2. Dans le raccourci **Lignes de groupes de couleurs**, entrez les trois enregistrements suivants :
 
 | **Couleur**| **Nom de couleur** |
 | - |
@@ -35,7 +35,7 @@ Votre organisation prévoit de créer un nouvel article, en l’occurrence une c
 
     - Description : **Taille de chemise**
 
-5. Dans le raccourci**Lignes de groupes de tailles **, entrez les trois enregistrements suivants :
+5. Dans le raccourci **Lignes de groupes de tailles**, entrez les trois enregistrements suivants
 
 | **Taille**| **Nom de taille** |
 | - |
@@ -43,9 +43,9 @@ Votre organisation prévoit de créer un nouvel article, en l’occurrence une c
 | M| Moyenne |
 | L| grand |
 
-6. Sauvegardez les enregistrements.
+6. Sauvegardez les enregistrements
 
-7. Dans le volet de navigation Dynamics 365 Supply Chain Management, sélectionnez **Modules**, puis **Gestion des informations sur les produits**. Ensuite, dans le menu **Produits**, sélectionnez **Produits génériques**.
+7. Dans le volet de navigation Dynamics 365 Supply Chain Management, sélectionnez **Modules**, puis **Gestion des informations sur les produits**. Ensuite, dans le menu **Produits**, sélectionnez **Produits génériques**.
 
 8. Dans la page **Produits génériques**, dans le menu du haut, sélectionnez **+ Nouveau**.
 
@@ -89,7 +89,7 @@ Les variantes seront créées sur la page Variantes de produits.
 
 27. Sélectionnez le bouton **Suivant** en bas de la page.
 
-28. Sélectionnez les variantes que vous souhaitez lancer dans l’entité juridique, puis sélectionnez le bouton **Suivant** .
+28. Sélectionnez les variantes que vous souhaitez lancer dans l’entité juridique, puis sélectionnez le bouton **Suivant**.
 
 29. Dans la page **Sélectionner les sociétés vers lesquelles lancer**, sélectionnez l’entité juridique **USMF** où le produit doit être lancé.
 
@@ -111,7 +111,7 @@ Les variantes seront créées sur la page Variantes de produits.
 
 36. Dans le raccourci **Achat**, entrez les informations suivantes :
 
-    - Unité : **unité(s)**
+    - Unité : **ea**
 
     - Groupe de taxe d’article : **TOUT**
 
@@ -119,7 +119,7 @@ Les variantes seront créées sur la page Variantes de produits.
 
 37. Dans le raccourci **Vendre**, entrez les informations suivantes :
 
-    - Unité : **unité(s)**
+    - Unité : **ea**
 
     - Groupe de taxe d’article : **TOUT**
 
@@ -127,11 +127,11 @@ Les variantes seront créées sur la page Variantes de produits.
 
 38. Dans le raccourci **Gérer le stock**, entrez les informations suivantes :
 
-    - Unité : **unité(s)**
+    - Unité : **ea**
 
-39. Dans le raccourci **Produire**, entrez les informations suivantes :
+39. Dans le raccourci **Ingénieur**, entrez les informations suivantes :
 
-    - Unité de nomenclature : **unité(s)**
+    - Unité BOM : **ea**
 
 40. Dans le raccourci **Gérer les coûts**, entrez les informations suivantes :
 

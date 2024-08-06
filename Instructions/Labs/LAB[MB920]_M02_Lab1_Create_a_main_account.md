@@ -21,9 +21,9 @@ Dans ce labo, vous allez effectuer les activités suivantes :
 
 2. Créer un calendrier fiscal.
 
-3. Créer un plan comptable.
+3. Créer un plan de comptes.
 
-4. Créer les comptes principaux dans le plan comptable.
+4. Créer les comptes principaux dans le plan de comptes.
 
 5. Créer une unité opérationnelle de type service et centre de coûts.
 
@@ -75,17 +75,17 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 1. Dans le volet de navigation gauche de Dynamics 365 Finance, sélectionnez **Modules** > **Comptabilité****&gt;****Plan comptable****&gt; Comptes &gt; Plan comptable**.
 
-2. Dans la page **Plan comptable**, sélectionnez le bouton **Nouveau** dans le volet Actions pour créer un nouveau plan comptable, puis entrez les informations suivantes :
+2. Dans la page **Plan de comptes**, sélectionnez le bouton **Nouveau** dans le volet Actions pour créer un nouveau plan de comptes, puis entrez les informations suivantes :
 
-    - **Plans comptables** : systèmes de démonstration
+    - **Plans de comptes** : systèmes de démonstration
 
     - **Description** : Systèmes de démonstration Contoso
 
 3. Sélectionnez le bouton **Nouveau** sur le raccourci **Comptes principaux** pour créer des comptes principaux avec les valeurs suivantes :
 
-    - Compte principal : **1000**
+    - Compte principal : **1 000**
 
-    - Nom : **Disponibilités**
+    - Nom : **Cash**
 
     - Type de dépense principale : **Bilan**
 
@@ -95,9 +95,9 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 4. Créez un autre compte principal :
 
-    - Compte principal : **3000**
+    - Compte principal : **3 000**
 
-    - Nom : **Revenu**
+    - Nom : **Chiffre d’affaires**
 
     - Type de dépense principal : **Revenu**
 
@@ -107,7 +107,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 5. Créez un autre compte principal :
 
-    - Compte principal : **6000**
+    - Compte principal : **6 000**
 
     - Nom : **Frais de déplacements**
 
@@ -137,7 +137,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 2. Si nécessaire, sélectionnez la société, puis, dans le menu, sélectionnez **CDS**.
 
-3. Dans le volet de navigation gauche de Dynamics 365 Finance, sélectionnez **Modules** > **Comptabilité****&gt;****Plan comptable &gt; Structures &gt;Configurer les structures de compte**.
+3. Dans le volet de navigation gauche de Dynamics 365 Finance, sélectionnez **Modules** > **Comptabilité****&gt;****Plan de comptes &gt; Structures &gt;Configurer les structures de compte**.
 
 4. Dans le volet Actions, sélectionnez le bouton **Nouveau** pour créer une structure de compte avec les valeurs suivantes :
 
@@ -149,7 +149,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 5. Cliquez sur le bouton **Créer**.
 
-6. Dans le raccourci **Segments et valeurs autorisées**, sélectionnez le bouton **Ajouter** pour ajouter **la plage de comptes principaux 1000..2999**.
+6. Dans le raccourci **Segments et valeurs autorisées**, sélectionnez le bouton **Ajouter** pour ajouter la **plage de comptes principaux 1 000..2 999**.
 
 7. Sélectionnez le bouton **Activer** dans le volet d’action, suivi du bouton **Activer** dans la boîte de dialogue Traitement par lots.
 
@@ -163,7 +163,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 9. Cliquez sur le bouton **Créer**.
 
-10. Dans le raccourci **Segments et valeurs autorisées**, sélectionnez le bouton **Ajouter** pour ajouter **la plage de comptes principaux 3000..5999**.
+10. Dans le raccourci **Segments et valeurs autorisées**, sélectionnez le bouton **Ajouter** pour ajouter **la plage de comptes principaux 3 000..5 999**.
 
 11. Sélectionnez le bouton **Activer** dans le volet d’action, suivi du bouton **Activer** dans la boîte de dialogue Traitement par lots.
 
@@ -177,7 +177,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 13. Cliquez sur le bouton **Créer**.
 
-14. Dans le raccourci **Segments et valeurs autorisées**, sélectionnez le bouton **Ajouter** pour ajouter **la plage de comptes principaux 6000..9999**.
+14. Dans le raccourci **Segments et valeurs autorisées**, sélectionnez le bouton **Ajouter** pour ajouter **la plage de comptes principaux 6 000..9 999**.
 
 15. Sélectionnez le bouton **Segment** dans le raccourci **Segments et valeurs autorisées**.
 
@@ -195,7 +195,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 3. Dans le volet de navigation gauche de Dynamics 365 Finance, sélectionnez **Modules** > **Comptabilité &gt; Configuration &gt; Page comptabilité** et configurez les éléments suivants :
 
-    - Plan comptable : **Systèmes de démonstration**
+    - Plan de comptes : **Systèmes de démonstration**
 
     - Calendrier fiscal : **CDS**
 
