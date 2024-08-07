@@ -22,9 +22,9 @@ Maintenant que vous vous êtes familiarisé avec les applications  de finances e
 
 1.  Vérifier que vous êtes dans l’entité juridique **USMF**.
 
-2.  Accédez à **Approvisionnements** > **Configuration** > **Fournisseurs** > **Groupes de fournisseurs**.
+2.  Accédez au module **Approvisionnements**> **Configuration** > **Fournisseurs** > **Groupes de fournisseurs**.
 
-3.  Sélectionnez **Ouvrir dans Microsoft Office** > **Ouvrir dans Excel**.
+3.  Dans le coin supérieur droit, sélectionnez **Ouvrir dans Microsoft Office** > **Ouvrir dans Excel**.
 
 4.  Sélectionnez **Groupes de fournisseurs** (usmf) et téléchargez le modèle Excel.
 
@@ -32,7 +32,7 @@ Maintenant que vous vous êtes familiarisé avec les applications  de finances e
 
     Toutes les données existantes dans la table **Groupes de fournisseurs** s’affichent dans la feuille de calcul Excel.
 
-6.  Entrez un nouvel enregistrement.
+6.  Entrez un nouvel enregistrement à la première position du nouveau groupe de fournisseurs.
 
 7.  Entrez **100** dans le champ **Groupe de fournisseurs**, **Fournisseur d’assurance** dans le champ **Description** et **Net10** dans le champ **Conditions de paiement**.
 

@@ -27,8 +27,6 @@ Maintenant que vous vous êtes familiarisé avec les applications Finance and Op
 
     - Mot de passe : `pass@word1`
 
-1.  Attendez la fin du script AdminUserProvisioning avant de continuer. Cette opération peut prendre 2 à 3 minutes. Une fois le script terminé, une zone contextuelle s’affiche brièvement pour confirmer la mise à jour de l’utilisateur administrateur. 
-
 1.  **Microsoft Edge** ouvre l’URL Finance & Operations : <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
 1.  Connectez-vous à l’aide du nom d’utilisateur et du mot de passe fournis dans le menu **Ressources**. 

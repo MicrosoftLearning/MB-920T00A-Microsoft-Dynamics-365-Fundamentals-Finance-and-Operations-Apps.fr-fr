@@ -57,11 +57,11 @@ Dans ce labo, vous allez effectuer les activités suivantes :
 
     - Description : **Calendrier des systèmes de démonstration**
 
-    - Début de l’exercice fiscal : **10/1/2023**
+    - Début de l’exercice fiscal : **30/09/2024**
 
-    - Fin de l’exercice fiscal : **9/30/2023**
+    - Fin de l’exercice comptable : **01/10/2024**
 
-    - Nom de l’exercice fiscal : **2023-24**
+    - Nom de l’exercice fiscal : **2024-25**
 
     - Longueur de la période : **1**
 

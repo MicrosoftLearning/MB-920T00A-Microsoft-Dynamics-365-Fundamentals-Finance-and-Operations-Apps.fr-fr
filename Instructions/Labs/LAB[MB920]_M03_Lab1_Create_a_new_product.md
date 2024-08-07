@@ -21,11 +21,12 @@ Votre organisation prévoit de créer un nouvel article, en l’occurrence une c
 
 2. Dans le raccourci **Lignes de groupes de couleurs**, entrez les trois enregistrements suivants :
 
-| **Couleur**| **Nom de couleur** |
-| - |
-| Bleu| Bleu |
-| White| Blanc |
-| Noir| Noir |
+    | **Couleur** | **Nom de couleur** |
+    |-----------|----------------|
+    | Bleu      | Bleu           |
+    | White     | Blanc          |
+    | Noir     | Noir          |
+
 
 3. Cliquez sur Enregistrer pour sauvegarder les enregistrements.
 
@@ -37,11 +38,12 @@ Votre organisation prévoit de créer un nouvel article, en l’occurrence une c
 
 5. Dans le raccourci **Lignes de groupes de tailles**, entrez les trois enregistrements suivants
 
-| **Taille**| **Nom de taille** |
-| - |
-| S| Petite |
-| M| Moyenne |
-| L| grand |
+    | **Taille** | **Nom de taille** |
+    |----------|---------------|
+    | S        | Petite         |
+    | M        | Moyenne        |
+    | L        | grand         |
+
 
 6. Sauvegardez les enregistrements
 
