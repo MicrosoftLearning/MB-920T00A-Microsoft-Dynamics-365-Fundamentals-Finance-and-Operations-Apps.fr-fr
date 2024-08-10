@@ -1,115 +1,146 @@
 ---
 lab:
-  title: "Labo\_1\_: Créer un nouveau produit"
-  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+  title: "Labo\_3.1\_: Créer un nouveau produit"
+  module: 'Learning Path 3: Learn the fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Module 3 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
+# Parcours d’apprentissage 3 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management
+# Module 2 : décrire le processus de vente et d’approvisionnement
 
-## Labo 1 : Créer un nouveau produit
+## Labo 3.1 : Créer un nouveau produit
 
-## Objectif
+Votre organisation prévoit de créer un nouvel article, en l’occurrence une chemise. Ces chemises pourront être de couleurs et de tailles différentes. Dans ce labo, vous allez apprendre à créer un article avec plusieurs variantes et à le publier dans l’entité juridique USMF.
 
-Dans Contoso Entertainment System USA (USMF), vous planifiez d’acheter une nouvelle configuration d’armoire auprès d’un fournisseur. Vous devez créer un article pour représenter la nouvelle configuration. Dans ce labo, vous apprenez à créer un élément et des configurations d’éléments.
+## Étapes de l’exercice
 
-## Mise en place du labo
+1. Dans le volet de navigation Dynamics 365 Supply Chain Management, sélectionnez **Modules**, puis sélectionnez **Gestion des informations sur les produits** > **Configuration** > **Groupes de dimensions et de variantes**. Ouvrez la page **Groupes de couleurs** et créez un enregistrement.
 
-   - **Durée estimée** : 10 minutes
+    - Groupe de couleurs : **ShirtColor**
 
-## Instructions
+    - Description : **Couleur de chemise**
 
-Dans Contoso Entertainment System USA (USMF), vous envisagez d’acheter une nouvelle configuration d’armoire auprès d’un fournisseur. Vous devez créer un article pour représenter la nouvelle configuration.
+2. Dans le raccourci **Lignes de groupes de couleurs**, entrez les trois enregistrements suivants :
 
-1.  Dans la page d’accueil Finance and Operations, en haut à droite, vérifiez que vous travaillez avec la société **USMF**. Si nécessaire, dans la liste déroulante des sociétés, sélectionnez **USMF**.
+    | **Couleur** | **Nom de couleur** |
+    |-----------|----------------|
+    | Bleu      | Bleu           |
+    | White     | Blanc          |
+    | Noir     | Noir          |
 
-2.  En haut à gauche, sélectionnez le menu Hamburger **Développer le volet de navigation**.
 
-3.  Dans le volet de navigation, sélectionnez **Modules**, puis **Gestion des informations sur les produits**. Ensuite, dans le menu **Produits**, sélectionnez **Produits**.
+3. Cliquez sur Enregistrer pour sauvegarder les enregistrements.
 
-4.  Dans la page **Produits**, dans le menu du haut, sélectionnez **+ Nouveau**.
+4. Sélectionnez **Gestion des informations sur les produits** > **Configuration** > **Groupes de dimensions et de variantes**. Ouvrez la page **Groupes de tailles** et créez un enregistrement.
 
-5.  Dans la page **Nouveau produit**, dans le champ **Type de produit**, vérifiez qu’**Article** est sélectionné.
+    - Groupe de taille : **ShirtSize**
 
-6.  Dans le champ **Sous-type de produit**, vérifiez que **Produit** est sélectionné.
+    - Description : **Taille de chemise**
 
-7.  Sous **IDENTIFICATION**, dans la zone **Numéro de produit**, entrez **GTL007**.
+5. Dans le raccourci **Lignes de groupes de tailles**, entrez les trois enregistrements suivants
 
-8.  Dans la zone **Nom du produit**, saisissez **Armoire 2**.
+    | **Taille** | **Nom de taille** |
+    |----------|---------------|
+    | S        | Petite         |
+    | M        | Moyenne        |
+    | L        | grand         |
 
-    ![Capture d’écran illustrant la vue standard de la page de création d’un produit.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
 
-9.  Cliquez sur le bouton **OK**.
+6. Sauvegardez les enregistrements
 
-10. Sous le menu **Produit** du volet Actions, sélectionnez **Groupes de dimensions** sous le groupe **Configurer**.
+7. Dans le volet de navigation Dynamics 365 Supply Chain Management, sélectionnez **Modules**, puis **Gestion des informations sur les produits**. Ensuite, dans le menu **Produits**, sélectionnez **Produits génériques**.
 
-    ![Capture d’écran illustrant l’option Configuration sous le menu Produit où les différents détails de groupe de dimensions peuvent être ajoutés.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
+8. Dans la page **Produits génériques**, dans le menu du haut, sélectionnez **+ Nouveau**.
 
-11. Sélectionnez la liste déroulante **Groupe de dimension de stockage**, puis **SiteWH**.
+9. Dans la page **Nouveau produit**, dans le champ **Type de produit**, vérifiez qu’**Article** est sélectionné.
 
-12. Sélectionnez la liste déroulante **Groupe de dimension de stockage**, puis **Aucun**.
+10. Dans le champ **Sous-type de produit**, vérifiez que **Produit****générique** est sélectionné.
 
-13. Cliquez sur le bouton **OK**.
+11. Sous l’onglet **Identification**, dans la zone **Numéro de produit**, saisissez **SH001**.
 
-14. Sélectionnez le bouton **Lancer des produits** dans le volet Actions pour lancer le produit dans une entité juridique.
+12. Dans le champ **Nom du produit**, saisissez **Chemise**.
 
-15. Une page s’ouvre, affichant la première étape sous la forme **Sélectionner les produits à lancer**.
+13. Dans le champ **Groupe de dimensions de produit**, sélectionnez **ColorSize**.
 
-    ![Capture d’écran illustrant la vue standard de la page Lancer les produits.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
+14. Cliquez sur le bouton **OK**.
 
-16. Sélectionnez le bouton **Suivant** en bas de la page.
+15. Sous le menu **Produit** du volet Actions, sélectionnez **Groupes de dimensions** sous le groupe **Configurer**.
 
-17. Dans la page **Sélectionner les sociétés vers lesquelles lancer**, sélectionnez l’entité juridique **USMF** où le produit doit être lancé.
+16. Dans la liste déroulante **Groupe de dimension de stockage**, sélectionnez **SiteWH**.
 
-18. Sélectionnez le bouton **Suivant** en bas de la page.
+17. Dans la liste déroulante **Groupe de dimension de suivi**, sélectionnez **Aucun**.
 
-19. Dans la page **Confirmer la sélection**, définissez la valeur **Afficher la fenêtre Infos en cas d’échec** sur **Oui** et **sur Exécuter en tant que lot** sur **Non**.
+18. Cliquez sur le bouton **OK**.
 
-20. Sélectionnez le bouton **Terminé** en bas de la page.
+19. Sélectionnez **ShirtColor** dans la liste des **groupes de couleurs**.
 
-21. Dans le volet de navigation, cliquez sur Modules, puis sur Gestion des informations produit. Ensuite, dans le menu Produits, sélectionnez **Produits lancés**.
+20. Sélectionnez **ShirtSize** dans la liste des **groupes de tailles**.
 
-22. Dans la page **Produits** **lancés**, recherchez le nouvel élément **GTL007** dans la grille. 
+21. Dans le volet Actions, sélectionnez **Variantes de produit**.
 
-23. Sélectionnez le lien du produit, puis accédez à la page **Détails du produit**.
+22. Dans la page **Variantes de produits**, dans le volet Actions, sélectionnez **Suggestions de variantes**.
 
-24. Dans le raccourci **Général**, entrez les informations suivantes :
+23. Sélectionnez le bouton **Suggérer tout** dans la page **Suggestions de variantes**.
 
-    - **Groupe de modèles d’article** : FIFO
+24. Sélectionnez les variantes suggérées en sélectionnant le bouton **Sélectionner tout** suivi du bouton **Créer** .
 
-25. Dans le raccourci **Achat**, entrez les informations suivantes :
+Les variantes seront créées sur la page Variantes de produits.
 
-    - **Unité** : ea
+25. Sélectionnez le bouton **Lancer les produits** dans le volet Actions pour lancer le produit dans une entité juridique.
 
-    - **Groupe de taxe d’article** : Tout
+26. Une page s’ouvre, affichant la première étape sous la forme **Sélectionner les produits à lancer**.
 
-    - **Prix** : 30
+27. Sélectionnez le bouton **Suivant** en bas de la page.
 
-26. Dans le raccourci **Vendre**, entrez les informations suivantes :
+28. Sélectionnez les variantes que vous souhaitez lancer dans l’entité juridique, puis sélectionnez le bouton **Suivant**.
 
-    - **Unité** : ea
+29. Dans la page **Sélectionner les sociétés vers lesquelles lancer**, sélectionnez l’entité juridique **USMF** où le produit doit être lancé.
 
-    - **Groupe de taxe d’article** : Tout
+30. Sélectionnez le bouton **Suivant** en bas de la page.
 
-    - **Prix** : 35
+31. Dans la page **Confirmer la sélection**, définissez la valeur **Afficher la fenêtre Infos en cas d’échec** sur **Oui** et **Exécuter en tant que lot** sur **Non**.
 
-27. Dans le raccourci **Gérer le stock**, entrez les informations suivantes :
+32. Sélectionnez le bouton **Terminé** en bas de la page.
 
-    - **Unité** : ea
+16. Dans le volet de navigation, sélectionnez **Modules**, puis **Gestion des informations produit**. Ensuite, dans le menu **Produits**, sélectionnez **Produits lancés**.
 
-28. Dans le raccourci **Ingénieur**, entrez les informations suivantes :
+33. Dans la page **Lancer les produits**, recherchez le nouvel article **SH001** dans la grille.
 
-    - **Unité de nomenclature** : ea
+34. Sélectionnez le lien du produit, puis accédez à la page **Détails du produit**.
 
-29. Dans le raccourci **Gérer les coûts**, entrez les informations suivantes :
+35. Dans le raccourci **Général**, entrez les informations suivantes :
 
-    - **Groupe d’articles** : audio
+    - Groupe de modèles d’article : **FIFO**
 
-30. Pour terminer la configuration, cliquez sur Produit dans le volet Actions. Sélectionnez le bouton Valider sous le groupe Tenir à jour.
+36. Dans le raccourci **Achat**, entrez les informations suivantes :
 
-    ![Capture d’écran montrant le groupe Tenir à jour sous le bouton Produit dans le volet Actions. Le bouton Valider du groupe Tenir à jour est sélectionné.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
+    - Unité : **ea**
 
-31. Vérifiez que vous voyez la bannière d’informations confirmant que toutes les valeurs de champ nécessaires ont été validées.
+    - Groupe de taxe d’article : **TOUT**
 
-    ![Capture d’écran montrant la bannière d’informations qui confirme que toutes les valeurs de champ nécessaires ont été validées. ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
+    - Prix : **30**
 
-32. Fermez toutes les pages et revenez à la page d’accueil.
+37. Dans le raccourci **Vendre**, entrez les informations suivantes :
+
+    - Unité : **ea**
+
+    - Groupe de taxe d’article : **TOUT**
+
+    - Prix : **35**
+
+38. Dans le raccourci **Gérer le stock**, entrez les informations suivantes :
+
+    - Unité : **ea**
+
+39. Dans le raccourci **Ingénieur**, entrez les informations suivantes :
+
+    - Unité BOM : **ea**
+
+40. Dans le raccourci **Gérer les coûts**, entrez les informations suivantes :
+
+    - Groupe d’articles : **audio**
+
+41. Pour terminer la configuration, sélectionnez **Produit** dans le volet Actions. Sélectionnez le bouton **Valider** sous le groupe **Tenir à jour**.
+
+42. Fermez toutes les pages et retournez à la page d’**accueil**.
+
+ 

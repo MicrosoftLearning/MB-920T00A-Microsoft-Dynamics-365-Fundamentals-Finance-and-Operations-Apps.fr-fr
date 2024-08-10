@@ -1,42 +1,108 @@
 ---
 lab:
-  title: "Labo\_3\_: Créer un ordre de fabrication"
-  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+  title: "Labo\_3.2\_: créer un ordre de fabrication"
+  module: 'Learning Path 3: Learn the fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Module 3 : Découvrir les principes fondamentaux de Microsoft Dynamics 365 Supply Chain Management
+# Parcours d’apprentissage 3 : Découvrir les principes de base de Microsoft Dynamics 365 Supply Chain Management
+# Module 4 : décrire le processus de fabrication
 
-## Labo 3 : Créer un ordre de fabrication
+## Labo 3.2 : créer un ordre de fabrication
 
 ## Objectif
 
-Les ordres de fabrication permettent de lancer le processus de production dans Supply Chain Management. Dans ce labo, vous allez vous familiariser avec l’interface utilisateur et les fonctionnalités du formulaire Ordre de fabrication. Vous apprenez également à créer un ordre de fabrication à la fin de l’exercice.
+Les ordres de fabrication permettent de lancer le processus de production dans Supply Chain Management. Dans ce labo, vous allez vous familiariser avec l’interface utilisateur et les fonctionnalités du formulaire Ordre de fabrication. Vous apprendrez également à créer et traiter un ordre de fabrication à la fin de l’exercice.
 
-## Mise en place du labo
+## Étapes de l’exercice
 
-   - **Durée estimée** : 5 minutes
+1. Sur la page d’accueil **Gestion de la chaîne logistique** de Dynamics 365, en haut à droite, vérifiez que vous travaillez avec l’entreprise **USMF**.
 
-## Instructions
+2. Si nécessaire, sélectionnez la société, puis, dans le menu, sélectionnez **USMF**.
 
-1.  Dans la page d’accueil **Finance and Operations**, en haut à droite, vérifiez que vous travaillez avec la société **USMF**.
+3. Dans le volet de navigation de gauche, sélectionnez **Modules** > **Contrôle de la production** > **Ordres de fabrication** > **Tous les ordres de fabrication**.
 
-2.  Si nécessaire, sélectionnez la société, puis, dans le menu, **USMF**.
+4. Dans le menu supérieur, sélectionnez **Nouvel ordre de fabrication** et saisissez les données suivantes.
 
-3.  Dans le volet de navigation de gauche, sélectionnez **Modules** > **Contrôle de la production** > **Ordres de fabrication** > **Tous les ordres de fabrication**.
+    - Numéro d’article : **D0002**
 
-4.  Dans le menu supérieur, sélectionnez **Nouvel ordre de fabrication**.
+    - Quantité : **10**
 
-5.  Sous **IDENTIFICATION**, dans la zone **Numéro d’article**, entrez **D0001**.
+    - Site : **1**
 
-6.  Dans le champ **Quantité**, entrez **20**.
+    - Entrepôt : **11**
 
-7.  Sous **PRODUCTION**, dans la zone **Livraison**, sélectionnez une date ultérieure d’un mois à la date du jour.
+    - Livraison : [sélectionnez une date ultérieure d’un mois à la date du jour]
 
-    La date de livraison indique quand l’ordre de fabrication doit prendre fin pour une livraison dans les temps. Cette date peut être utilisée dans le processus de planification. Par exemple, vous pouvez planifier la commande à rebours à partir de la date de livraison.
+    - Numéro BOM : **D0002BOM**
 
-8.  Sous NOMENCLATURE/GAMME, le champ **Numéro de nomenclature** affiche automatiquement le numéro de toute nomenclature active pour l’article actuel, mais vous pouvez modifier la nomenclature de l’ordre de fabrication en sélectionnant une nomenclature active dans la liste des versions de nomenclature approuvées. Le champ **Numéro de gamme** affiche automatiquement le numéro de toute gamme active pour l’article actuel, mais vous pouvez modifier la gamme de l’ordre de fabrication en sélectionnant une gamme active dans la liste des versions de gamme approuvées.
+    - Numéro de gamme : **000004**
 
-    ![Capture d’écran montrant la page Créer un ordre de fabrication. Les champs Numéro d’article et Livraison sont mis en évidence.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-40.png)
+5. Cliquez sur le bouton **Créer**.
 
-9.  Sélectionnez **Create** (Créer).
+Un nouvel ordre de fabrication est créé pour 10 quantités de l’article D0002.
 
+6. Sélectionnez **Ordre de fabrication (menu volet Actions) &gt; Processus &gt; Estimation.**
+
+7. Dans la boîte de dialogue **Estimation**, sélectionnez **Standard** dans le champ **Définition du profit**, sélectionnez le **champ Références**, puis sélectionnez le bouton **OK**.
+
+Le **statut** de l’ordre de fabrication changera en **Estimé**.
+
+8. Sélectionnez **Planifier (menu volet Actions) &gt; Ordre de fabrication &gt; Planifier les opérations.**
+
+9. Dans la boîte de dialogue **Planification des opérations**, sélectionnez **Transférer à partir d’aujourd’hui** dans le champ **Direction de planification** et sélectionner le bouton **OK**.
+
+10. Sélectionnez **Vue (menu volet Actions) &gt; Informations liées &gt; Réservation de capacité**.
+
+11. Vérifiez les nouveaux enregistrements créés dans la page **Réservation de capacité**.
+
+12. Revenez à la page **Tous les ordres de fabrication**. Notez que le **statut** de l’ordre de fabrication passe à **Planifié**.
+
+13. Sélectionnez **Ordre de fabrication (menu du volet Actions) &gt; Processus &gt; Mise en production**.
+
+14. Dans la boîte de dialogue **Mise en production**, sélectionnez le **champ Références** et sélectionnez le bouton **OK**.
+
+15. Le **statut** de l’ordre de fabrication changera en **Mis en production**.
+
+16. Sélectionnez **Ordre de fabrication (menu du volet Actions) &gt; Processus &gt; Démarrer**.
+
+17. Dans la boîte de dialogue **Démarrer**, sélectionnez l’onglet **Général**.
+
+18. Saisissez les informations suivantes sous l’onglet **Général**.
+
+    - Date : **date du jour**
+
+    - Quantité : **10**
+
+    - Démarrer la production : **OUI**
+
+    - Valider fiche production maintenant : **NON**
+
+    - Valider bordereau de prélévement maintenant : **NON**
+
+19. Cliquez sur le bouton **OK**.
+
+Le **Statut** de l’ordre de fabrication change en **Démarré**.
+
+20. Sélectionnez **Vue (menu volet Actions) &gt; Journaux &gt; Bordereau de prélévement**.
+
+Un nouveau journal de bordereau de prélévement est créé avec trois lignes.
+
+21. Publiez le journal de bordereau de prélévement.
+
+22. Revenez à la page **Tous les ordres de fabrication** et sélectionnez **Vue (menu du volet Actions) &gt; Journaux&gt; Fiche production**.
+
+Un journal de fiche production est créé avec trois lignes.
+
+23. Sélectionnez le champ **Opération terminée** dans les trois lignes et publiez le journal de la fiche production.
+
+24. Revenez à la page **Tous les ordres de fabrication** et sélectionnez **Ordres de fabrication (menu du volet Actions) &gt; Processus &gt; Signaler comme terminé**.
+
+25. Dans la boîte de dialogue **Signaler comme terminé**, entrez **10** dans le champ **Quantité de marchandise**. Sélectionnez le champ **Terminer le travail** et sélectionnez **OK**.
+
+L’**état** de l’ordre de fabrication passe à **Terminé**. Le stock de l’article **D0002** augmente de 10 sur le site 1 et l’entrepôt 11.
+
+26. Sélectionnez **Gérer les coûts (menu du volet Actions) &gt; Calculs &gt; Afficher les détails du calcul**.
+
+Notez le coût final de l’article fabriqué sous l’onglet **Présentation de l’évaluation des coûts**.
+
+ 
