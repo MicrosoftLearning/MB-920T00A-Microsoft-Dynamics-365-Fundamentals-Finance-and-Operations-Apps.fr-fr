@@ -42,7 +42,7 @@ Votre organisation prévoit de créer un nouvel article, en l’occurrence une c
     |----------|---------------|
     | S        | Petite         |
     | M        | Moyenne        |
-    | L        | grand         |
+    | L        | Grande         |
 
 
 6. Sauvegardez les enregistrements
