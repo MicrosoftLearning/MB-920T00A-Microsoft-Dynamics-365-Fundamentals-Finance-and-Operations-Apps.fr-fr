@@ -28,7 +28,7 @@ Maintenant que vous vous êtes familiarisé avec les applications  de finances e
 
 4.  Sélectionnez **Groupes de fournisseurs** (usmf) et téléchargez le modèle Excel.
 
-5.  Enregistrez, puis ouvrez le modèle Excel téléchargé, autorisez-le si nécessaire, fermez l’activation, puis sélectionnez **Activer la modification**. Approuvez ce complément, puis connectez-vous (avec vos mêmes informations d’identification, si vous y êtes invité).
+5.  Enregistrez, puis ouvrez le modèle Excel téléchargé, autorisez-le si nécessaire, fermez l’activation et sélectionnez **Activer la modification**. Approuvez ce complément, puis connectez-vous (avec vos mêmes informations d’identification, si vous y êtes invité).
 
     Toutes les données existantes dans la table **Groupes de fournisseurs** s’affichent dans la feuille de calcul Excel.
 

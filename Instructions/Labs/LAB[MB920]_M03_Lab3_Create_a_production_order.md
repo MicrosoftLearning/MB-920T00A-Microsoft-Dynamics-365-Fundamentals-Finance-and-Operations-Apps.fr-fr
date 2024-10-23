@@ -89,6 +89,8 @@ Un nouveau journal de bordereau de prélévement est créé avec trois lignes.
 
 21. Publiez le journal de bordereau de prélévement.
 
+Si nécessaire, sélectionnez **OK** dans la fenêtre Valider le journal.
+
 22. Revenez à la page **Tous les ordres de fabrication** et sélectionnez **Vue (menu du volet Actions) &gt; Journaux&gt; Fiche production**.
 
 Un journal de fiche production est créé avec trois lignes.

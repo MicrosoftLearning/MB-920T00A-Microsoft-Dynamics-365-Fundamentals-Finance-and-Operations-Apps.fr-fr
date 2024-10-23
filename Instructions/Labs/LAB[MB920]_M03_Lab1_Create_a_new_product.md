@@ -101,11 +101,13 @@ Les variantes seront créées sur la page Variantes de produits.
 
 32. Sélectionnez le bouton **Terminé** en bas de la page.
 
-16. Dans le volet de navigation, sélectionnez **Modules**, puis **Gestion des informations produit**. Ensuite, dans le menu **Produits**, sélectionnez **Produits lancés**.
+33. En haut à droite, basculez vers **USMF** comme entité juridique.
+
+34. Dans le volet de navigation, sélectionnez **Modules**, puis **Gestion des informations produit**. Ensuite, dans le menu **Produits**, sélectionnez **Produits lancés**.
 
 33. Dans la page **Lancer les produits**, recherchez le nouvel article **SH001** dans la grille.
 
-34. Sélectionnez le lien du produit, puis accédez à la page **Détails du produit**.
+34. Sélectionnez le lien du produit, puis accédez à la page **Détails des produits lancés**.
 
 35. Dans le raccourci **Général**, entrez les informations suivantes :
 
