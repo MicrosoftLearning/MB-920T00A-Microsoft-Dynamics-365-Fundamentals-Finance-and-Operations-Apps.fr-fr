@@ -59,7 +59,7 @@ Dans ce labo, vous allez effectuer les activités suivantes :
 
     - Début de l’exercice fiscal : **30/09/2024**
 
-    - Fin de l’exercice comptable : **01/10/2024**
+    - Fin de l’exercice comptable : **01/10/2025**
 
     - Nom de l’exercice fiscal : **2024-25**
 
@@ -87,7 +87,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
     - Nom : **Cash**
 
-    - Type de dépense principale : **Bilan**
+    - Type de compte principal : **bilan**
 
     - Catégorie de compte principal : **CASH**
 
@@ -99,7 +99,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
     - Nom : **Chiffre d’affaires**
 
-    - Type de dépense principal : **Revenu**
+    - Type de compte principal : **chiffres d’affaires**
 
     - Catégorie de compte principal : **REV**
 
@@ -111,7 +111,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
     - Nom : **Frais de déplacements**
 
-    - Type de dépense principal : **Dépenses**
+    - Type de compte principal : **Dépenses**
 
     - Catégorie de compte principal : **EXP**
 
@@ -125,7 +125,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
     - Nom : **CDS_Training**
 
-3. Dans le volet Actions, sélectionnez le bouton Nouveau suivi du type d’unité d’exploitation du centre de coûts et entrez la valeur suivante :
+3. Dans le volet Actions, sélectionnez le bouton **Nouveau** suivi du type d’unité d’**exploitation du centre de coûts** et entrez la valeur suivante :
 
     - Nom : **CDS_Purchase**
 
@@ -179,7 +179,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 14. Dans le raccourci **Segments et valeurs autorisées**, sélectionnez le bouton **Ajouter** pour ajouter **la plage de comptes principaux 6 000..9 999**.
 
-15. Sélectionnez le bouton **Segment** dans le raccourci **Segments et valeurs autorisées**.
+15. Sélectionnez le bouton **Ajouter un segment** dans le raccourci **Segments et valeurs autorisées**.
 
 16. Dans la boîte de dialogue **Ajouter un segment**, sélectionnez **CostCenter** suivi du bouton **Ajouter un segment** .
 
@@ -193,7 +193,7 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
 
 2. Si nécessaire, sélectionnez la société, puis, dans le menu, sélectionnez **CDS**.
 
-3. Dans le volet de navigation gauche de Dynamics 365 Finance, sélectionnez **Modules** > **Comptabilité &gt; Configuration &gt; Page comptabilité** et configurez les éléments suivants :
+3. Dans le volet de navigation gauche de Dynamics 365 Finance, sélectionnez la page **Modules** > **Comptabilité &gt; Configuration de comptabilité&gt; Comptabilité** et configurez les éléments suivants :
 
     - Plan de comptes : **Systèmes de démonstration**
 
@@ -208,6 +208,8 @@ Le système génère 14 périodes, dont une période d’ouverture et une péri
     - Type de taux de change budgétaire : **Budget**
 
 4. Dans le raccourci **Structure de compte**, sélectionnez le bouton **Ajouter** pour ajouter la structure de compte **CDS_BS**.
+
+> Si nécessaire, sélectionnez **Oui** pour ajouter une structure de compte.
 
 5. Ajoutez deux structures de comptes supplémentaires : **CDS_Revenue** et **CDS_Expense**.
 
